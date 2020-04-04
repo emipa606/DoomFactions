@@ -1,0 +1,20 @@
+﻿F.O.B.
+H.Q.
+Camp
+B.O.P.
+Bunker
+Barracks
+Encampment
+Establishment
+Deployment
+Lookout
+Garrison
+Holdout
+Outpost
+Hideout
+Safehouse
+Trade Zone
+Facility
+Station
+Bugout
+Research Station

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsUACTable</defName>
+    <label>do bills at UAC table</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>75</priorityInType>
+    <fixedBillGiverDefs>
+      <li>UACTable</li>
+    </fixedBillGiverDefs>
+    <verb>work</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsUACOrganTable</defName>
+    <label>do bills at UAC organ table</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>75</priorityInType>
+    <fixedBillGiverDefs>
+      <li>UACOrgansTable</li>
+    </fixedBillGiverDefs>
+    <verb>work</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

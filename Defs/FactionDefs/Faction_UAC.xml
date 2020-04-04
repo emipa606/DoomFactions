@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>UAC</defName>
+    <label>Union Aerospace Installation</label>
+    <description>The UAC, a multi-planetary conglomerate with unlimited resources founded by Thomas Kelliher during the year of 2015.
+
+Nobody knows why they are here, but if you are familiar with the incidents and catastrophes that the Union Aerospace has covered up in the past, you might just have the right idea. 
+
+Either the UAC is here to clean up a mess they made, or worse, they are about to start a new one.</description>
+    <pawnsPlural>security forces</pawnsPlural>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <earliestRaidDays>35</earliestRaidDays>
+    <canMakeRandomly>True</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Executive Officer</leaderTitle>
+    <factionIconPath>World/UACLogo</factionIconPath>
+    <colorSpectrum>
+      <li>(220, 220, 220)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-15</min>
+      <max>-25</max>
+    </startingGoodwill>
+    <fixedName>Union Aerospace</fixedName>
+    <settlementNameMaker>Namegen_UACFactionBase</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <autoFlee>false</autoFlee>
+    <hidden>false</hidden>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>0</min>
+      <max>10</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>80</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>70</commonality>
+        <options>
+          <UAC_Agent>50</UAC_Agent>
+          <UAC_Wildcat>50</UAC_Wildcat>
+          <UAC_Wildcat>100</UAC_Wildcat>
+          <UAC_Wildcat>250</UAC_Wildcat>
+          <UAC_Wildcat>100</UAC_Wildcat>
+          <UAC_Sheperd>250</UAC_Sheperd>
+          <UAC_Raven>100</UAC_Raven>
+          <UAC_ASP>100</UAC_ASP>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <UAC_EliteLight>50</UAC_EliteLight>
+          <UAC_EliteLight>150</UAC_EliteLight>
+          <UAC_EliteSniper>100</UAC_EliteSniper>
+          <UAC_EliteHeavy>100</UAC_EliteHeavy>
+          <UAC_XO>10</UAC_XO>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <UAC_Agent>50</UAC_Agent>
+          <UAC_Scientist>50</UAC_Scientist>
+          <UAC_Wildcat>100</UAC_Wildcat>
+          <UAC_Wildcat>50</UAC_Wildcat>
+          <UAC_Sheperd>100</UAC_Sheperd>
+          <UAC_Sheperd>100</UAC_Sheperd>
+          <UAC_EliteLight>100</UAC_EliteLight>
+          <UAC_EliteLight>50</UAC_EliteLight>
+          <UAC_EliteSniper>100</UAC_EliteSniper>
+          <UAC_EliteHeavy>100</UAC_EliteHeavy>
+          <UAC_Raven>100</UAC_Raven>
+          <UAC_ASP>100</UAC_ASP>
+          <UAC_ASP>50</UAC_ASP>
+          <UAC_XO>10</UAC_XO>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <UAC_Trader>1</UAC_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>8</Muffalo>
+          <Dromedary>12</Dromedary>
+        </carriers>
+        <guards>
+          <UAC_Wildcat>50</UAC_Wildcat>
+          <UAC_Wildcat>100</UAC_Wildcat>
+          <UAC_Sheperd>100</UAC_Sheperd>
+          <UAC_Raven>100</UAC_Raven>
+          <UAC_ASP>100</UAC_ASP>
+          <UAC_ASP>50</UAC_ASP>
+        </guards>
+      </li>
+    </pawnGroupMakers>
+    <caravanTraderKinds>
+      <li>UAC_CombatSupplier</li>
+      <li>UAC_Supplier</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>UAC_Visitor</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>UAC_Base</li>
+    </baseTraderKinds>
+    <settlementTexturePath>World/UACBase</settlementTexturePath>
+  </FactionDef>
+</Defs>
