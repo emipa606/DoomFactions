@@ -45,7 +45,7 @@
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <stuffCategories />
-	<statBases>
+    <statBases>
       <Mass>0.3</Mass>
     </statBases>
   </ThingDef>

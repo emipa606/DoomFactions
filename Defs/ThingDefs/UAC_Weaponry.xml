@@ -67,7 +67,7 @@
     <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
     <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
     <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
-  </ManeuverDef>  
+  </ManeuverDef>
   <ToolCapacityDef>
     <defName>Saw</defName>
     <label>saw</label>
@@ -411,7 +411,7 @@
         <warmupTime>2.0</warmupTime>
         <range>30</range>
         <soundCast>Fire_UACGAUSS</soundCast>
-		<forcedMissRadius>1.9</forcedMissRadius>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>5</muzzleFlashScale>
       </li>
@@ -535,7 +535,7 @@
         <defaultProjectile>UAC_RocketLauncher</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>40</range>
-		<forcedMissRadius>1.9</forcedMissRadius>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <soundCast>Fire_UACRocketLauncher</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
@@ -727,7 +727,7 @@
         <defaultProjectile>Proj_UACBFG</defaultProjectile>
         <warmupTime>2.0</warmupTime>
         <range>30</range>
-		<forcedMissRadius>1.9</forcedMissRadius>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <soundCast>Shot_UACBFG9000</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
