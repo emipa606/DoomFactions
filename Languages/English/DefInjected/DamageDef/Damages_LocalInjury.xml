@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UAC_Plasm.label>Plasm</UAC_Plasm.label>
+  <UAC_Plasm.deathMessage>{0} has been shot to death.</UAC_Plasm.deathMessage>
+
+  <UAC_BFG.label>Plasm BFG</UAC_BFG.label>
+  <UAC_BFG.deathMessage>{0} was DESTROYED.</UAC_BFG.deathMessage>
+
+  <UAC_GAUSS.label>Plasm GAUSS</UAC_GAUSS.label>
+  <UAC_GAUSS.deathMessage>{0} has been obliterated.</UAC_GAUSS.deathMessage>
+
+
+</LanguageData>

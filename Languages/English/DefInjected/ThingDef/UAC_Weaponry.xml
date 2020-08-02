@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Abstract defs -->
+
+  <MeleeWeapon_UACSaw.label>Chainsaw Mk. IV</MeleeWeapon_UACSaw.label>
+  <MeleeWeapon_UACSaw.description>Does damage like the normal fist, but four times faster and a lot bloodier because it's nothing like the normal fist. Version IV.</MeleeWeapon_UACSaw.description>
+  <MeleeWeapon_UACSaw.tools.0.label>chainsaw</MeleeWeapon_UACSaw.tools.0.label>
+
+  <Bullet_UACPistol.label>UACPistol bullet</Bullet_UACPistol.label>
+
+  <UAC_Pistol.label>UAC EMG pistol</UAC_Pistol.label>
+  <UAC_Pistol.description>Standard issue pistol for UAC staff.</UAC_Pistol.description>
+
+  <Bullet_UACCombatShotgun.label>shotgun bullet</Bullet_UACCombatShotgun.label>
+
+  <UAC_CombatShotgun.label>UAC combat shotgun</UAC_CombatShotgun.label>
+  <UAC_CombatShotgun.description>A standard issue combat shotgun given to UAC security.</UAC_CombatShotgun.description>
+
+  <UAC_BulletSuperShotgun.label>sshotgun bullet</UAC_BulletSuperShotgun.label>
+
+  <UAC_SuperShotgun.label>Super shotgun IV</UAC_SuperShotgun.label>
+  <UAC_SuperShotgun.description>A double-barrelled, sawed-off shotgun which takes even longer to reload, but at close range is even more deadly than the regular shotgun. Version IV of the Super shotgun series.</UAC_SuperShotgun.description>
+
+  <Bullet_UACHeavyAssaultRifle.label>assault rifle bullet</Bullet_UACHeavyAssaultRifle.label>
+
+  <UAC_HeavyAssaultRifle.label>UAC heavy assault rifle</UAC_HeavyAssaultRifle.label>
+  <UAC_HeavyAssaultRifle.description>Standard issue UAC assault rifle, fires .50 cal rounds.</UAC_HeavyAssaultRifle.description>
+
+
+  <!-- Minigun -->
+
+  <Bullet_UACChaingun.label>chaingun bullet</Bullet_UACChaingun.label>
+
+  <Gun_UACChaingun.label>UAC Chaingun</Gun_UACChaingun.label>
+  <Gun_UACChaingun.description>A multi-barrel machine gun with an extremely high rate of fire. Union Aerospace design.</Gun_UACChaingun.description>
+
+  <UAC_GAUSSBEAM.label>GAUSS Beam</UAC_GAUSSBEAM.label>
+
+  <Gun_GAUSSCannon.label>UAC GAUSS Cannon</Gun_GAUSSCannon.label>
+  <Gun_GAUSSCannon.description>Fires energy beams that can reach long ranges. Union Aerospace manufactured and designed.</Gun_GAUSSCannon.description>
+
+  <Bullet_UACPlasmaGun.label>PlasmaGun plasma</Bullet_UACPlasmaGun.label>
+
+  <UAC_PlasmaGun.label>UAC plasma gun</UAC_PlasmaGun.label>
+  <UAC_PlasmaGun.description>Shoots pulses of blue-hot plasma at high speed, which can take down groups of incoming enemies easily â€” if aimed properly.</UAC_PlasmaGun.description>
+
+  <UAC_RocketLauncher.label>Rocket UAC</UAC_RocketLauncher.label>
+
+  <Gun_UACRocketLauncher.label>UAC Rocket launcher</Gun_UACRocketLauncher.label>
+  <Gun_UACRocketLauncher.description>Fires explosive rockets. Does a lot of damage, but can also seriously hurt the player if used indiscriminately at close range.</Gun_UACRocketLauncher.description>
+
+  <Bullet_UACHellshot.label>Hellshot sticky</Bullet_UACHellshot.label>
+
+  <UAC_Hellshot.label>UAC Hellshot</UAC_Hellshot.label>
+  <UAC_Hellshot.description>Firemode 2, fires a round that sticks and burns the target. Union Aerospace design, adapted Helltech.</UAC_Hellshot.description>
+
+  <Bullet_UACVortexRifle.label>Vortex beam</Bullet_UACVortexRifle.label>
+
+  <UAC_VortexRifle.label>UAC Vortex rifle</UAC_VortexRifle.label>
+  <UAC_VortexRifle.description>Standard issue UAC sniper rifle.</UAC_VortexRifle.description>
+
+  <Proj_UACBFG.label>BFG9000 UAC</Proj_UACBFG.label>
+
+  <UAC_BFG.label>UAC BFG9000 IV</UAC_BFG.label>
+  <UAC_BFG.description>The "Big Friendly Gun". Somewhat counter-intuitive to operate at first, but kills almost any monster in one shot. Version IV of the BFG series.</UAC_BFG.description>
+
+
+</LanguageData>

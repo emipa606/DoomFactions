@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- THE UAC -->
+
+  <Namegen_UACFactionName.rulePack.rulesStrings.0>name-> Union Aerospace</Namegen_UACFactionName.rulePack.rulesStrings.0>
+  <Namegen_UACFactionName.rulePack.rulesStrings.1>name-> Union Aerospace Corporation</Namegen_UACFactionName.rulePack.rulesStrings.1>
+
+  <Namegen_UACFactionBase.rulePack.rulesStrings.0>name-> UAC Project [opname] [basename]</Namegen_UACFactionBase.rulePack.rulesStrings.0>
+  <Namegen_UACFactionBase.rulePack.rulesStrings.1>name-> UAC [planet] branch, sector [milletter]</Namegen_UACFactionBase.rulePack.rulesStrings.1>
+  <Namegen_UACFactionBase.rulePack.rulesStrings.2>name-> Union Aerospace, [basename] [milletter]</Namegen_UACFactionBase.rulePack.rulesStrings.2>
+
+
+</LanguageData>

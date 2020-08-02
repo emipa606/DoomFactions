@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Praetor Suit -->
+
+  <Apparel_DOOMPraetorSuit.label>Praetor suit</Apparel_DOOMPraetorSuit.label>
+  <Apparel_DOOMPraetorSuit.description>D22 Model, gives the user superhuman abilities. Excellent for travelling to Hell and back or surviving years of irrelevance with mods.</Apparel_DOOMPraetorSuit.description>
+
+
+  <!-- Praetor Helm -->
+
+  <Apparel_DOOMPraetorHelm.label>Praetor helmet</Apparel_DOOMPraetorHelm.label>
+  <Apparel_DOOMPraetorHelm.description>Part of the Praetor Suit, includes advanced HUD systems that assist the user with combat and also protects the head from energy attacks.</Apparel_DOOMPraetorHelm.description>
+
+
+  <!-- DOOM Helm -->
+
+  <Apparel_DOOMGuyHelm.label>Security helmet</Apparel_DOOMGuyHelm.label>
+  <Apparel_DOOMGuyHelm.description>Classic UAC security helmet given to UAC Marines. Good for avoiding getting your head ripped and torn.</Apparel_DOOMGuyHelm.description>
+
+
+</LanguageData>

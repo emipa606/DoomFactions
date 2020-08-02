@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UAC_Trader.label>Negotiator</UAC_Trader.label>
+  <UAC_Trader.labelPlural>Negotiators</UAC_Trader.labelPlural>
+
+  <UAC_Agent.label>Agent</UAC_Agent.label>
+  <UAC_Agent.labelPlural>Agents</UAC_Agent.labelPlural>
+
+  <UAC_Scientist.label>Scientist</UAC_Scientist.label>
+  <UAC_Scientist.labelPlural>Scientists</UAC_Scientist.labelPlural>
+
+  <UAC_Wildcat.label>Wildcat</UAC_Wildcat.label>
+  <UAC_Wildcat.labelPlural>Wildcats</UAC_Wildcat.labelPlural>
+
+  <UAC_Sheperd.label>Sheperd</UAC_Sheperd.label>
+  <UAC_Sheperd.labelPlural>Sheperds</UAC_Sheperd.labelPlural>
+
+  <UAC_Raven.label>Raven</UAC_Raven.label>
+  <UAC_Raven.labelPlural>Ravens</UAC_Raven.labelPlural>
+
+  <UAC_ASP.label>ASP</UAC_ASP.label>
+  <UAC_ASP.labelPlural>ASPs</UAC_ASP.labelPlural>
+
+  <UAC_XO.label>Executive Officer</UAC_XO.label>
+  <UAC_XO.labelPlural>Executive Officers</UAC_XO.labelPlural>
+
+
+</LanguageData>
