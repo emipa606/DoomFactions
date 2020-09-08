@@ -3,19 +3,23 @@
 
   <UACCreateSynthread.label>create synthread</UACCreateSynthread.label>
   <UACCreateSynthread.description>Create x75 synthread from cloth, components and chemfuel.</UACCreateSynthread.description>
-  <UACCreateSynthread.jobString></UACCreateSynthread.jobString>
+  <UACCreateSynthread.jobString>
+  </UACCreateSynthread.jobString>
 
   <UACCreateHyperweave.label>create hyperweave</UACCreateHyperweave.label>
   <UACCreateHyperweave.description>Create x75 hyperweave from cloth and components.</UACCreateHyperweave.description>
-  <UACCreateHyperweave.jobString></UACCreateHyperweave.jobString>
+  <UACCreateHyperweave.jobString>
+  </UACCreateHyperweave.jobString>
 
   <UACCreateMedicine.label>create medicine</UACCreateMedicine.label>
   <UACCreateMedicine.description>Creates x10 medicine from herbal medicine and synthread.</UACCreateMedicine.description>
-  <UACCreateMedicine.jobString></UACCreateMedicine.jobString>
+  <UACCreateMedicine.jobString>
+  </UACCreateMedicine.jobString>
 
   <UACCreateGlitterworldMedicine.label>create glitterworld medicine</UACCreateGlitterworldMedicine.label>
   <UACCreateGlitterworldMedicine.description>Create x5 glitterworld medicine from medicine and hyperweave.</UACCreateGlitterworldMedicine.description>
-  <UACCreateGlitterworldMedicine.jobString></UACCreateGlitterworldMedicine.jobString>
+  <UACCreateGlitterworldMedicine.jobString>
+  </UACCreateGlitterworldMedicine.jobString>
 
 
 </LanguageData>

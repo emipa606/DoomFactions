@@ -9,8 +9,10 @@
     <li>1.2</li>
   </supportedVersions>
   <modDependencies />
-  <loadAfter />
-  <description>Update of Chicken Pluckers mod for RimWorld 1.1
+  <loadAfter>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <description>Update of Chicken Pluckers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1133691528
 
 [img]https://i.imgur.com/GYswkZ7.png[/img]
