@@ -1,23 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <DoomMarine_Trader.label>Trader</DoomMarine_Trader.label>
   <DoomMarine_Trader.labelPlural>Traders</DoomMarine_Trader.labelPlural>
-
   <Doom_MarineBerserker.label>Berserker</Doom_MarineBerserker.label>
   <Doom_MarineBerserker.labelPlural>Berserkers</Doom_MarineBerserker.labelPlural>
-
   <Doom_MarineLight.label>Space Marine</Doom_MarineLight.label>
   <Doom_MarineLight.labelPlural>Space Marines</Doom_MarineLight.labelPlural>
-
   <Doom_MarineHeavy.label>Space Marine</Doom_MarineHeavy.label>
   <Doom_MarineHeavy.labelPlural>Space Marines</Doom_MarineHeavy.labelPlural>
-
   <Doom_MarineSniper.label>Space Marine</Doom_MarineSniper.label>
   <Doom_MarineSniper.labelPlural>Space Marines</Doom_MarineSniper.labelPlural>
-
   <Doom_MarineBoss.label>Platoon Leader</Doom_MarineBoss.label>
   <Doom_MarineBoss.labelPlural>Platoon Leaders</Doom_MarineBoss.labelPlural>
-
-
 </LanguageData>

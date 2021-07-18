@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Doom_Marines.label>Space Marines</Doom_Marines.label>
   <Doom_Marines.description>Nobody knows who these people are or where they came from, all we have are stories.	
 	
@@ -11,6 +10,4 @@ Not sure if their stories were to be taken seriously or as a joke, these Marines
 These Marines are thankfully friendly around local colonies and do what they can to protect others from trouble, a rare sight in this lawless Rim planet.</Doom_Marines.description>
   <Doom_Marines.pawnsPlural>space marines</Doom_Marines.pawnsPlural>
   <Doom_Marines.leaderTitle>Platoon Leader</Doom_Marines.leaderTitle>
-
-
 </LanguageData>

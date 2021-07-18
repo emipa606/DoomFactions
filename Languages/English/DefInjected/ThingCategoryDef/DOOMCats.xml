@@ -1,19 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <DOOMcategories.label>DOOM Apparel</DOOMcategories.label>
   <DOOM_Armor.label>DOOM Armor</DOOM_Armor.label>
-
-
   <!-- Hat main -->
-
   <DOOM_hats.label>DOOM Headgear</DOOM_hats.label>
-
-
   <!-- Weapons main -->
-
   <DOOM_Guns.label>Doom Ranged Weapons</DOOM_Guns.label>
   <DOOM_Melee.label>Doom Melee Weapons</DOOM_Melee.label>
-
-
 </LanguageData>

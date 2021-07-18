@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedUACProsthesis</defName>
+    <label>Unfinished prosthesis</label>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UnfinishedUACPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories />
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

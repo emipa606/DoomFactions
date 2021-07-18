@@ -1,17 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <DoBillsUACTable.label>do bills at UAC table</DoBillsUACTable.label>
   <DoBillsUACTable.verb>work</DoBillsUACTable.verb>
   <DoBillsUACTable.gerund>working at</DoBillsUACTable.gerund>
-
   <DoBillsUACOrganTable.label>do bills at UAC organ table</DoBillsUACOrganTable.label>
   <DoBillsUACOrganTable.verb>work</DoBillsUACOrganTable.verb>
   <DoBillsUACOrganTable.gerund>working at</DoBillsUACOrganTable.gerund>
-
   <DoBillsDOOMATable.label>do bills at Doom table</DoBillsDOOMATable.label>
   <DoBillsDOOMATable.verb>work</DoBillsDOOMATable.verb>
   <DoBillsDOOMATable.gerund>working at</DoBillsDOOMATable.gerund>
-
-
 </LanguageData>

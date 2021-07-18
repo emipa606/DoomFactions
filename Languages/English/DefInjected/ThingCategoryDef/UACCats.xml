@@ -1,21 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <UACcategories.label>UAC Apparel</UACcategories.label>
   <UAC_Clothing.label>UAC Clothing</UAC_Clothing.label>
   <UAC_Armor.label>UAC Armor</UAC_Armor.label>
-
-
   <!-- Hat main -->
-
   <UAC_hats.label>UAC Headgear</UAC_hats.label>
-
-
   <!-- Weapons main -->
-
   <UAC_Guns.label>UAC Ranged Weapons</UAC_Guns.label>
   <UAC_Melee.label>UAC Melee Weapons</UAC_Melee.label>
   <UAC_Items.label>UAC Items</UAC_Items.label>
-
-
 </LanguageData>

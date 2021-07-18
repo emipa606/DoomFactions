@@ -1,19 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- THE UAC -->
-
-  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.0>name-> 4th Platoon, 2nd Space Marines</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.0>
-  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.1>name-> 7th Platoon, Doom Slayers</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.1>
-  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.2>name-> 6th Platoon, Hell Walkers</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.2>
-  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.3>name-> 1st Platoon, Rip and Tear</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.3>
-
-  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.0>name-> Camp Lejeune</Namegen_SpaceMarineBasename.rulePack.rulesStrings.0>
-  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.1>name-> Chosin Resevoir</Namegen_SpaceMarineBasename.rulePack.rulesStrings.1>
-  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.2>name-> Guadalcanal</Namegen_SpaceMarineBasename.rulePack.rulesStrings.2>
-  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.3>name-> Iwo Jima</Namegen_SpaceMarineBasename.rulePack.rulesStrings.3>
-  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.4>name-> Chesty Puller Outpost</Namegen_SpaceMarineBasename.rulePack.rulesStrings.4>
-  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.5>name-> Hell Walkers, Camp [milletter]</Namegen_SpaceMarineBasename.rulePack.rulesStrings.5>
-
-
+  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.0>name-&gt; 4th Platoon, 2nd Space Marines</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.0>
+  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.1>name-&gt; 7th Platoon, Doom Slayers</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.1>
+  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.2>name-&gt; 6th Platoon, Hell Walkers</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.2>
+  <Namegen_SpaceMarineFactionName.rulePack.rulesStrings.3>name-&gt; 1st Platoon, Rip and Tear</Namegen_SpaceMarineFactionName.rulePack.rulesStrings.3>
+  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.0>name-&gt; Camp Lejeune</Namegen_SpaceMarineBasename.rulePack.rulesStrings.0>
+  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.1>name-&gt; Chosin Resevoir</Namegen_SpaceMarineBasename.rulePack.rulesStrings.1>
+  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.2>name-&gt; Guadalcanal</Namegen_SpaceMarineBasename.rulePack.rulesStrings.2>
+  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.3>name-&gt; Iwo Jima</Namegen_SpaceMarineBasename.rulePack.rulesStrings.3>
+  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.4>name-&gt; Chesty Puller Outpost</Namegen_SpaceMarineBasename.rulePack.rulesStrings.4>
+  <Namegen_SpaceMarineBasename.rulePack.rulesStrings.5>name-&gt; Hell Walkers, Camp [milletter]</Namegen_SpaceMarineBasename.rulePack.rulesStrings.5>
 </LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>UACcategories</defName>
+    <label>UAC Apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>UAC_Clothing</defName>
+    <label>UAC Clothing</label>
+    <parent>UACcategories</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>UAC_Armor</defName>
+    <label>UAC Armor</label>
+    <parent>UACcategories</parent>
+  </ThingCategoryDef>
+  <!-- Hat main -->
+  <ThingCategoryDef>
+    <defName>UAC_hats</defName>
+    <label>UAC Headgear</label>
+    <parent>Headgear</parent>
+  </ThingCategoryDef>
+  <!-- Weapons main -->
+  <ThingCategoryDef>
+    <defName>UAC_Guns</defName>
+    <label>UAC Ranged Weapons</label>
+    <parent>WeaponsRanged</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>UAC_Melee</defName>
+    <label>UAC Melee Weapons</label>
+    <parent>WeaponsMelee</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>UAC_Items</defName>
+    <label>UAC Items</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+</Defs>

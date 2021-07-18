@@ -1,79 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Added part -->
-
   <UACbionicspine.label>UAC bionic spine</UACbionicspine.label>
   <UACbionicspine.description>artificial bodypart</UACbionicspine.description>
-
   <UACbioniceye.label>UAC bionic eye</UACbioniceye.label>
   <UACbioniceye.description>artificial bodypart</UACbioniceye.description>
-
-
   <!-- Added implants -->
-
   <UACWorkerImplant.label>UAC worker implant</UACWorkerImplant.label>
   <UACWorkerImplant.description>implant</UACWorkerImplant.description>
-
   <UACLearnerImplant.label>UAC learner implant</UACLearnerImplant.label>
   <UACLearnerImplant.description>implant</UACLearnerImplant.description>
-
   <UACCombatImplant.label>UAC combat implant</UACCombatImplant.label>
   <UACCombatImplant.description>implant</UACCombatImplant.description>
-
-
   <!-- Added organs -->
-
   <UACBrainChip.label>UAC Brain Chip</UACBrainChip.label>
   <UACBrainChip.description>artificial organ</UACBrainChip.description>
-
   <UACSyntheticLung.label>UAC synthetic lung</UACSyntheticLung.label>
   <UACSyntheticLung.description>artificial organ</UACSyntheticLung.description>
-
   <UACSyntheticStomach.label>UAC synthetic stomach</UACSyntheticStomach.label>
   <UACSyntheticStomach.description>artificial organ</UACSyntheticStomach.description>
-
   <UACSyntheticLiver.label>UAC synthetic liver</UACSyntheticLiver.label>
   <UACSyntheticLiver.description>artificial organ</UACSyntheticLiver.description>
-
   <UACSyntheticKidney.label>UAC synthetic kidney</UACSyntheticKidney.label>
   <UACSyntheticKidney.description>artificial organ</UACSyntheticKidney.description>
-
   <UACSyntheticHeart.label>UAC synthetic heart</UACSyntheticHeart.label>
   <UACSyntheticHeart.description>artificial organ</UACSyntheticHeart.description>
-
-
   <!-- Added synthetic parts -->
-
   <UACSyntheticArm.label>UAC synthetic arm</UACSyntheticArm.label>
   <UACSyntheticArm.description>synthetic bodypart</UACSyntheticArm.description>
-
   <UACSyntheticLeg.label>UAC synthetic leg</UACSyntheticLeg.label>
   <UACSyntheticLeg.description>synthetic bodypart</UACSyntheticLeg.description>
-
   <UACSyntheticHand.label>UAC synthetic hand</UACSyntheticHand.label>
   <UACSyntheticHand.description>synthetic bodypart</UACSyntheticHand.description>
-
   <UACSyntheticFoot.label>UAC synthetic foot</UACSyntheticFoot.label>
   <UACSyntheticFoot.description>synthetic bodypart</UACSyntheticFoot.description>
-
   <UACSyntheticEye.label>UAC synthetic eye</UACSyntheticEye.label>
   <UACSyntheticEye.description>synthetic bodypart</UACSyntheticEye.description>
-
   <UACSyntheticEar.label>UAC synthetic ear</UACSyntheticEar.label>
   <UACSyntheticEar.description>synthetic bodypart</UACSyntheticEar.description>
-
   <UACSyntheticJaw.label>UAC synthetic jaw</UACSyntheticJaw.label>
   <UACSyntheticJaw.description>synthetic bodypart</UACSyntheticJaw.description>
-
   <UACSyntheticNose.label>UAC synthetic nose</UACSyntheticNose.label>
   <UACSyntheticNose.description>synthetic bodypart</UACSyntheticNose.description>
-
   <UACSyntheticFinger.label>UAC synthetic finger</UACSyntheticFinger.label>
   <UACSyntheticFinger.description>synthetic bodypart</UACSyntheticFinger.description>
-
   <UACSyntheticToe.label>UAC synthetic toe</UACSyntheticToe.label>
   <UACSyntheticToe.description>synthetic bodypart</UACSyntheticToe.description>
-
-
 </LanguageData>
