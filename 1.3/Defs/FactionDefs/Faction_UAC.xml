@@ -11,6 +11,7 @@ Either the UAC is here to clean up a mess they made, or worse, they are about to
     <pawnsPlural>security forces</pawnsPlural>
     <settlementGenerationWeight>0.5</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <earliestRaidDays>35</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
     <canSiege>true</canSiege>

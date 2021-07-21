@@ -13,6 +13,7 @@ These Marines are thankfully friendly around local colonies and do what they can
     <pawnsPlural>space marines</pawnsPlural>
     <settlementGenerationWeight>0.02</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <earliestRaidDays>30</earliestRaidDays>
     <canMakeRandomly>True</canMakeRandomly>
     <canSiege>false</canSiege>
