@@ -64,6 +64,16 @@ These Marines are thankfully friendly around local colonies and do what they can
         </options>
       </li>
       <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Doom_MarineSniper>100</Doom_MarineSniper>
+          <Doom_MarineLight>250</Doom_MarineLight>
+          <Doom_MarineBerserker>250</Doom_MarineBerserker>
+          <Doom_MarineHeavy>100</Doom_MarineHeavy>
+          <Doom_MarineBoss>15</Doom_MarineBoss>
+        </options>
+      </li>
+      <li>
         <kindDef>Settlement</kindDef>
         <options>
           <Doom_MarineBerserker>100</Doom_MarineBerserker>
