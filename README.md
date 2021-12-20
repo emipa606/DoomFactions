@@ -39,7 +39,6 @@ Note: Not combat extended compatible, sry men :(
 
 
 Credits:
-Jesus Christ - Died for our sins
 Odstriman - Textures, lab coat and business suit
 Viceroy -  Weapon sounds
 Tynan - Coding
