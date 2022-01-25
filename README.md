@@ -5,7 +5,8 @@
 Update of Chicken Pluckers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1133691528
 
-- Added CE-support
+- [strike]Added CE-support[/strike] Patches now included in the main CE-mod instead
+- For a more vanilla artstyle, try https://steamcommunity.com/sharedfiles/filedetails/?id=2700632371] TasteOfVanilla-ish Doom Faction Retexture by IcyCheeseCake
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -22,7 +23,7 @@ UAC Furnitures: http://steamcommunity.com/sharedfiles/filedetails/?id=1133801381
 UAC Kit: http://steamcommunity.com/sharedfiles/filedetails/?id=1134659817
 DOOM Kit: http://steamcommunity.com/sharedfiles/filedetails/?id=1119466127
 
-Note: Not combat extended compatible, sry men :(
+[strike]Note: Not combat extended compatible, sry men :([/strike]
 
 ![Image](https://i.imgur.com/xjfBTXL.gif)
 

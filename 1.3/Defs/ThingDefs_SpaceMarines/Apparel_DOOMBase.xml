@@ -12,6 +12,7 @@
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
+    <relicChance>1</relicChance>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -28,6 +29,8 @@
       </li>
       <li>
         <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Styleable">
       </li>
     </comps>
   </ThingDef>
