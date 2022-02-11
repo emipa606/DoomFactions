@@ -88,6 +88,18 @@ Either the UAC is here to clean up a mess they made, or worse, they are about to
         </options>
       </li>
       <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <UAC_Agent>100</UAC_Agent>
+          <UAC_Scientist>100</UAC_Scientist>
+          <UAC_Wildcat>50</UAC_Wildcat>
+          <UAC_Sheperd>50</UAC_Sheperd>
+          <UAC_Raven>50</UAC_Raven>
+          <UAC_ASP>50</UAC_ASP>
+          <UAC_XO>10</UAC_XO>
+        </options>
+      </li>
+      <li>
         <kindDef>Trader</kindDef>
         <traders>
           <UAC_Trader>1</UAC_Trader>
