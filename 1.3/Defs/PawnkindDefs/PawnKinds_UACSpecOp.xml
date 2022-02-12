@@ -51,14 +51,6 @@
     <weaponTags>
       <li>UAC_EliteLight</li>
     </weaponTags>
-    <techHediffsMoney>
-      <min>4000</min>
-      <max>20000</max>
-    </techHediffsMoney>
-    <techHediffsChance>1</techHediffsChance>
-    <techHediffsTags>
-      <li>UACbionicspine</li>
-    </techHediffsTags>
     <inventoryOptions>
       <skipChance>0.01</skipChance>
       <subOptionsChooseOne>
@@ -78,6 +70,41 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+	<!-- Buffs -->
+    <techHediffsRequired>
+		<li>DeathAcidifier</li>
+		<li>UACbionicspine</li>
+		<li>UACbioniceye</li>
+		<li>UACbioniceye</li>
+		<li>UACCombatImplant</li>
+		<li>UACSyntheticLung</li>
+		<li>UACSyntheticHeart</li>
+		<li>UACSyntheticArm</li>
+		<li>UACSyntheticArm</li>
+		<li>UACSyntheticLeg</li>
+		<li>UACSyntheticLeg</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>1</biocodeWeaponChance>
+    <forcedTraits>
+		<li>Tough</li>
+    </forcedTraits>
+    <disallowedTraits>
+		<li>Wimp</li>
+    </disallowedTraits>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>12~16</range>
+		</li>
+		<li>
+			<skill>Melee</skill>
+			<range>11~16</range>
+		</li>	  
+		<li>
+			<skill>Social</skill>
+			<range>5~12</range>
+		</li> 
+    </skills>
   </PawnKindDef>
   <!-- ============================================== -->
   <PawnKindDef>
@@ -124,14 +151,6 @@
     <weaponTags>
       <li>UAC_EliteSniper</li>
     </weaponTags>
-    <techHediffsMoney>
-      <min>4000</min>
-      <max>20000</max>
-    </techHediffsMoney>
-    <techHediffsChance>1</techHediffsChance>
-    <techHediffsTags>
-      <li>UACbionicspine</li>
-    </techHediffsTags>
     <inventoryOptions>
       <skipChance>0.01</skipChance>
       <subOptionsChooseOne>
@@ -151,6 +170,41 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+	<!-- Buffs -->
+    <techHediffsRequired>
+		<li>DeathAcidifier</li>
+		<li>UACbionicspine</li>
+		<li>UACbioniceye</li>
+		<li>UACbioniceye</li>
+		<li>UACCombatImplant</li>
+		<li>UACSyntheticLung</li>
+		<li>UACSyntheticHeart</li>
+		<li>UACSyntheticArm</li>
+		<li>UACSyntheticArm</li>
+		<li>UACSyntheticLeg</li>
+		<li>UACSyntheticLeg</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>1</biocodeWeaponChance>
+    <forcedTraits>
+		<li>Tough</li>
+    </forcedTraits>
+    <disallowedTraits>
+		<li>Wimp</li>
+    </disallowedTraits>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>12~16</range>
+		</li>
+		<li>
+			<skill>Melee</skill>
+			<range>11~16</range>
+		</li>	  
+		<li>
+			<skill>Social</skill>
+			<range>5~12</range>
+		</li> 
+    </skills>
   </PawnKindDef>
   <!-- ============================================== -->
   <PawnKindDef>
@@ -197,14 +251,6 @@
     <weaponTags>
       <li>UAC_EliteHeavy</li>
     </weaponTags>
-    <techHediffsMoney>
-      <min>4000</min>
-      <max>20000</max>
-    </techHediffsMoney>
-    <techHediffsChance>1</techHediffsChance>
-    <techHediffsTags>
-      <li>UACbionicspine</li>
-    </techHediffsTags>
     <inventoryOptions>
       <skipChance>0.01</skipChance>
       <subOptionsChooseOne>
@@ -224,5 +270,40 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+	<!-- Buffs -->
+    <techHediffsRequired>
+		<li>DeathAcidifier</li>
+		<li>UACbionicspine</li>
+		<li>UACbioniceye</li>
+		<li>UACbioniceye</li>
+		<li>UACCombatImplant</li>
+		<li>UACSyntheticLung</li>
+		<li>UACSyntheticHeart</li>
+		<li>UACSyntheticArm</li>
+		<li>UACSyntheticArm</li>
+		<li>UACSyntheticLeg</li>
+		<li>UACSyntheticLeg</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>1</biocodeWeaponChance>
+    <forcedTraits>
+		<li>Tough</li>
+    </forcedTraits>
+    <disallowedTraits>
+		<li>Wimp</li>
+    </disallowedTraits>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>12~16</range>
+		</li>
+		<li>
+			<skill>Melee</skill>
+			<range>11~16</range>
+		</li>	  
+		<li>
+			<skill>Social</skill>
+			<range>5~12</range>
+		</li> 
+    </skills>
   </PawnKindDef>
 </Defs>
