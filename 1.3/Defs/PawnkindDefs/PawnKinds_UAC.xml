@@ -56,7 +56,7 @@
       </subOptionsChooseOne>
     </inventoryOptions>
     <techHediffsRequired>
-		<li>DeathAcidifier</li>
+      <li>DeathAcidifier</li>
     </techHediffsRequired>
   </PawnKindDef>
   <PawnKindDef ParentName="UAC_FBase">
@@ -207,40 +207,40 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-	<!-- Buffs -->
+    <!-- Buffs -->
     <techHediffsRequired>
-		<li>DeathAcidifier</li>
-		<li>UACbionicspine</li>
-		<li>UACbioniceye</li>
-		<li>UACbioniceye</li>
-		<li>UACCombatImplant</li>
-		<li>UACSyntheticLung</li>
-		<li>UACSyntheticHeart</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticLeg</li>
-		<li>UACSyntheticLeg</li>
+      <li>DeathAcidifier</li>
+      <li>UACbionicspine</li>
+      <li>UACbioniceye</li>
+      <li>UACbioniceye</li>
+      <li>UACCombatImplant</li>
+      <li>UACSyntheticLung</li>
+      <li>UACSyntheticHeart</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticLeg</li>
+      <li>UACSyntheticLeg</li>
     </techHediffsRequired>
     <biocodeWeaponChance>1</biocodeWeaponChance>
     <forcedTraits>
-		<li>Tough</li>
+      <li>Tough</li>
     </forcedTraits>
     <disallowedTraits>
-		<li>Wimp</li>
+      <li>Wimp</li>
     </disallowedTraits>
-	<skills>
-		<li>
-			<skill>Shooting</skill>
-			<range>8~15</range>
-		</li>
-		<li>
-			<skill>Melee</skill>
-			<range>8~16</range>
-		</li>	  
-		<li>
-			<skill>Social</skill>
-			<range>5~10</range>
-		</li> 
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~15</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>8~16</range>
+      </li>
+      <li>
+        <skill>Social</skill>
+        <range>5~10</range>
+      </li>
     </skills>
   </PawnKindDef>
   <PawnKindDef>
@@ -299,40 +299,40 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-	<!-- Buffs -->
+    <!-- Buffs -->
     <techHediffsRequired>
-		<li>DeathAcidifier</li>
-		<li>UACbionicspine</li>
-		<li>UACbioniceye</li>
-		<li>UACbioniceye</li>
-		<li>UACCombatImplant</li>
-		<li>UACSyntheticLung</li>
-		<li>UACSyntheticHeart</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticLeg</li>
-		<li>UACSyntheticLeg</li>
+      <li>DeathAcidifier</li>
+      <li>UACbionicspine</li>
+      <li>UACbioniceye</li>
+      <li>UACbioniceye</li>
+      <li>UACCombatImplant</li>
+      <li>UACSyntheticLung</li>
+      <li>UACSyntheticHeart</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticLeg</li>
+      <li>UACSyntheticLeg</li>
     </techHediffsRequired>
     <biocodeWeaponChance>1</biocodeWeaponChance>
     <forcedTraits>
-		<li>Tough</li>
+      <li>Tough</li>
     </forcedTraits>
     <disallowedTraits>
-		<li>Wimp</li>
+      <li>Wimp</li>
     </disallowedTraits>
-	<skills>
-		<li>
-			<skill>Shooting</skill>
-			<range>8~15</range>
-		</li>
-		<li>
-			<skill>Melee</skill>
-			<range>8~16</range>
-		</li>	  
-		<li>
-			<skill>Social</skill>
-			<range>5~10</range>
-		</li> 
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~15</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>8~16</range>
+      </li>
+      <li>
+        <skill>Social</skill>
+        <range>5~10</range>
+      </li>
     </skills>
   </PawnKindDef>
   <PawnKindDef>
@@ -391,40 +391,40 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-	<!-- Buffs -->
+    <!-- Buffs -->
     <techHediffsRequired>
-		<li>DeathAcidifier</li>
-		<li>UACbionicspine</li>
-		<li>UACbioniceye</li>
-		<li>UACbioniceye</li>
-		<li>UACCombatImplant</li>
-		<li>UACSyntheticLung</li>
-		<li>UACSyntheticHeart</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticLeg</li>
-		<li>UACSyntheticLeg</li>
+      <li>DeathAcidifier</li>
+      <li>UACbionicspine</li>
+      <li>UACbioniceye</li>
+      <li>UACbioniceye</li>
+      <li>UACCombatImplant</li>
+      <li>UACSyntheticLung</li>
+      <li>UACSyntheticHeart</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticLeg</li>
+      <li>UACSyntheticLeg</li>
     </techHediffsRequired>
     <biocodeWeaponChance>1</biocodeWeaponChance>
     <forcedTraits>
-		<li>Tough</li>
+      <li>Tough</li>
     </forcedTraits>
     <disallowedTraits>
-		<li>Wimp</li>
+      <li>Wimp</li>
     </disallowedTraits>
-	<skills>
-		<li>
-			<skill>Shooting</skill>
-			<range>8~15</range>
-		</li>
-		<li>
-			<skill>Melee</skill>
-			<range>8~16</range>
-		</li>	  
-		<li>
-			<skill>Social</skill>
-			<range>5~10</range>
-		</li> 
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~15</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>8~16</range>
+      </li>
+      <li>
+        <skill>Social</skill>
+        <range>5~10</range>
+      </li>
     </skills>
   </PawnKindDef>
   <PawnKindDef>
@@ -483,40 +483,40 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-	<!-- Buffs -->
+    <!-- Buffs -->
     <techHediffsRequired>
-		<li>DeathAcidifier</li>
-		<li>UACbionicspine</li>
-		<li>UACbioniceye</li>
-		<li>UACbioniceye</li>
-		<li>UACCombatImplant</li>
-		<li>UACSyntheticLung</li>
-		<li>UACSyntheticHeart</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticLeg</li>
-		<li>UACSyntheticLeg</li>
+      <li>DeathAcidifier</li>
+      <li>UACbionicspine</li>
+      <li>UACbioniceye</li>
+      <li>UACbioniceye</li>
+      <li>UACCombatImplant</li>
+      <li>UACSyntheticLung</li>
+      <li>UACSyntheticHeart</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticLeg</li>
+      <li>UACSyntheticLeg</li>
     </techHediffsRequired>
     <biocodeWeaponChance>1</biocodeWeaponChance>
     <forcedTraits>
-		<li>Tough</li>
+      <li>Tough</li>
     </forcedTraits>
     <disallowedTraits>
-		<li>Wimp</li>
+      <li>Wimp</li>
     </disallowedTraits>
-	<skills>
-		<li>
-			<skill>Shooting</skill>
-			<range>8~15</range>
-		</li>
-		<li>
-			<skill>Melee</skill>
-			<range>8~16</range>
-		</li>	  
-		<li>
-			<skill>Social</skill>
-			<range>5~10</range>
-		</li> 
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~15</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>8~16</range>
+      </li>
+      <li>
+        <skill>Social</skill>
+        <range>5~10</range>
+      </li>
     </skills>
   </PawnKindDef>
   <PawnKindDef>
@@ -574,40 +574,40 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-	<!-- Buffs -->
+    <!-- Buffs -->
     <techHediffsRequired>
-		<li>DeathAcidifier</li>
-		<li>UACbionicspine</li>
-		<li>UACbioniceye</li>
-		<li>UACbioniceye</li>
-		<li>UACCombatImplant</li>
-		<li>UACSyntheticLung</li>
-		<li>UACSyntheticHeart</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticArm</li>
-		<li>UACSyntheticLeg</li>
-		<li>UACSyntheticLeg</li>
+      <li>DeathAcidifier</li>
+      <li>UACbionicspine</li>
+      <li>UACbioniceye</li>
+      <li>UACbioniceye</li>
+      <li>UACCombatImplant</li>
+      <li>UACSyntheticLung</li>
+      <li>UACSyntheticHeart</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticArm</li>
+      <li>UACSyntheticLeg</li>
+      <li>UACSyntheticLeg</li>
     </techHediffsRequired>
     <biocodeWeaponChance>1</biocodeWeaponChance>
     <forcedTraits>
-		<li>Tough</li>
+      <li>Tough</li>
     </forcedTraits>
     <disallowedTraits>
-		<li>Wimp</li>
+      <li>Wimp</li>
     </disallowedTraits>
-	<skills>
-		<li>
-			<skill>Shooting</skill>
-			<range>12~15</range>
-		</li>
-		<li>
-			<skill>Melee</skill>
-			<range>12~16</range>
-		</li>	  
-		<li>
-			<skill>Social</skill>
-			<range>10~16</range>
-		</li> 
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>12~15</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>12~16</range>
+      </li>
+      <li>
+        <skill>Social</skill>
+        <range>10~16</range>
+      </li>
     </skills>
   </PawnKindDef>
 </Defs>

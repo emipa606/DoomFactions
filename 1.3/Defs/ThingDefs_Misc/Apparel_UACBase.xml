@@ -29,6 +29,8 @@
       <li>
         <compClass>CompQuality</compClass>
       </li>
+      <li Class="CompProperties_Styleable">
+      </li>
     </comps>
   </ThingDef>
   <!-- Tailor -->
