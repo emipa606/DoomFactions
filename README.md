@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1133691528
 
 - [strike]Added CE-support[/strike] Patches now included in the main CE-mod instead
 - For a more vanilla artstyle, try https://steamcommunity.com/sharedfiles/filedetails/?id=2700632371] TasteOfVanilla-ish Doom Faction Retexture by IcyCheeseCake
+- Updated doom-slayer faction with more of a Doom-feel. Thanks amaotoUsagi!
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
