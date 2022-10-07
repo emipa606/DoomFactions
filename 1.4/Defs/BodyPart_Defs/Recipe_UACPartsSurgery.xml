@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- UAC Boi -->
+  <RecipeDef Name="SurgeryUAC" ParentName="SurgeryFlesh" Abstract="True">
+    <surgerySuccessChanceFactor>0.99</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <workAmount>1500</workAmount>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACbionicspine</defName>
+    <label>install UAC bionic spine</label>
+    <description>Installs UAC bionic spine.</description>
+    <jobString>Installing UAC bionic spine.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACbionicspine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACbionicspine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACbionicspine</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACbioniceye</defName>
+    <label>install UAC bionic eye</label>
+    <description>Installs UAC bionic eye.</description>
+    <jobString>Installing UAC bionic eye.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACbioniceye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACbioniceye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACbioniceye</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACWorkerImplant</defName>
+    <label>install UAC worker implant</label>
+    <description>Installs UAC worker implant.</description>
+    <jobString>Installing UAC worker implant.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACWorkerImplant</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACWorkerImplant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACWorkerImplant</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACLearnerImplant</defName>
+    <label>install UAC learner implant</label>
+    <description>Installs UAC learner implant.</description>
+    <jobString>Installing UAC learner implant.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACLearnerImplant</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACLearnerImplant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACLearnerImplant</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>UACCombatImplant</defName>
+    <label>install UAC combat implant</label>
+    <description>Installs UAC combat implant.</description>
+    <jobString>Installing UAC combat implant.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACCombatImplant</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACCombatImplant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACCombatImplant</addsHediff>
+  </RecipeDef>
+  <!-- Added Organs well most of them kek -->
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACBrainChip</defName>
+    <label>install UAC brain chip</label>
+    <description>Installs brain chip.</description>
+    <jobString>Installing UAC brain chip.</jobString>
+    <workAmount>2000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACBrainChip</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACBrainChip</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACBrainChip</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticLung</defName>
+    <label>install UAC synthetic lung</label>
+    <description>Installs UAC synthetic lung.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing UAC synthetic lung.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticLung</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticLung</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticLung</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticStomach</defName>
+    <label>install UAC synthetic stomach</label>
+    <description>Installs UAC synthetic stomach.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing UAC synthetic stomach.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticStomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticStomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticStomach</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticLiver</defName>
+    <label>install UAC synthetic liver</label>
+    <description>Installs a UAC synthetic liver.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing UAC synthetic liver.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticLiver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticLiver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticLiver</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticKidney</defName>
+    <label>install UAC synthetic kidney</label>
+    <description>Installs UAC synthetic kidney.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing UAC synthetic kidney.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticKidney</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticKidney</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticKidney</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticHeart</defName>
+    <label>install UAC synthetic heart</label>
+    <description>Installs a UAC artificial heart.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial heart.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticHeart</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticHeart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticHeart</addsHediff>
+  </RecipeDef>
+  <!-- Synthetics boi -->
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticArm</defName>
+    <label>install UAC synthetic Arm</label>
+    <description>Installs a UAC artificial arm.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial arm.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticArm</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticLeg</defName>
+    <label>install UAC synthetic leg</label>
+    <description>Installs a UAC artificial leg.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial leg.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticLeg</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticHand</defName>
+    <label>install UAC synthetic hand</label>
+    <description>Installs a UAC artificial hand.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial hand.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticHand</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticHand</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticHand</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticFoot</defName>
+    <label>install UAC synthetic foot</label>
+    <description>Installs a UAC artificial foot.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial foot.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticFoot</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticFoot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticFoot</addsHediff>
+  </RecipeDef>
+  <!-- Smaller parts -->
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticFinger</defName>
+    <label>install UAC synthetic finger</label>
+    <description>Installs a UAC artificial finger.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial finger.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticFinger</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticFinger</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Finger</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticFinger</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticToe</defName>
+    <label>install UAC synthetic toe</label>
+    <description>Installs a UAC artificial toe.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial toe.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticToe</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticToe</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Toe</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticToe</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticEye</defName>
+    <label>install UAC synthetic eye</label>
+    <description>Installs a UAC artificial eye.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial eye.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticEye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticEye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticEye</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticEar</defName>
+    <label>install UAC synthetic ear</label>
+    <description>Installs a UAC artificial ear.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial ear.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticEar</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticNose</defName>
+    <label>install UAC synthetic nose</label>
+    <description>Installs a UAC artificial nose.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial nose.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticNose</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticNose</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticNose</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryUAC">
+    <defName>InstallUACSyntheticJaw</defName>
+    <label>install UAC synthetic jaw</label>
+    <description>Installs a UAC artificial jaw.</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>Installing a UAC artificial jaw.</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UACSyntheticJaw</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>UACSyntheticJaw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>UACSyntheticJaw</addsHediff>
+  </RecipeDef>
+</Defs>
