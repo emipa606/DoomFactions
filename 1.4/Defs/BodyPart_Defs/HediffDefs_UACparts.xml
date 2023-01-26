@@ -296,7 +296,7 @@
       <li Class="HediffCompProperties_VerbGiver">
         <verbs>
           <li>
-            <verbClass>Verb_MeleeAttack</verbClass>
+            <verbClass>Verb_MeleeAttackDamage</verbClass>
             <defaultCooldownTime>1.25</defaultCooldownTime>
             <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
             <meleeDamageDef>Blunt</meleeDamageDef>
@@ -344,7 +344,7 @@
       <li Class="HediffCompProperties_VerbGiver">
         <verbs>
           <li>
-            <verbClass>Verb_MeleeAttack</verbClass>
+            <verbClass>Verb_MeleeAttackDamage</verbClass>
             <defaultCooldownTime>1.65</defaultCooldownTime>
             <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
             <meleeDamageDef>Blunt</meleeDamageDef>
