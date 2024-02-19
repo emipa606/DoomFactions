@@ -5,7 +5,7 @@
   <ThingDef ParentName="DOOMArmorMakeableBase">
     <defName>Apparel_DOOMPraetorSuit</defName>
     <label>Praetor suit</label>
-    <description>D22 Model, gives the user superhuman abilities. Excellent for travelling to Hell and back or surviving years of irrelevance with mods.</description>
+    <description>D22 Model, gives the user superhuman abilities. Excellent for traveling to Hell and back or surviving years of irrelevance with mods.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>SpaceMarineThings/Apparel/Display/Praetor2016</texPath>
@@ -53,6 +53,7 @@
       </layers>
       <tags>
         <li>DOOMSuit</li>
+        <li>PrestigeCombatGear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -113,6 +114,7 @@
       </layers>
       <tags>
         <li>DOOMHelm</li>
+        <li>PrestigeCombatGear</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>

@@ -1,5 +1,8 @@
 # Changelog for DoomFactions
 
+1.4.3 - The Praetor Suit should now fulfil royalty titles
+
+
 1.4.2 - Fixed melee attack issues, thanks Babakrak
 
 
