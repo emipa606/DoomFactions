@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Name="UACSynthetic" ParentName="BodyPartBase" Abstract="True">
+    <tradeTags>
+      <li>UACParts</li>
+    </tradeTags>
+    <thingCategories>
+      <li>UACImplants</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Added body parts -->
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACbioniceye</defName>
+    <label>UAC bionic eye</label>
+    <description>Bionic eye under UAC specifications, used for security units, but also functions as a general purpose eye for anybody who just needs a new one.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACbioniceye</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACbionicspine</defName>
+    <label>UAC bionic spine</label>
+    <description>Bionic spine under UAC specifications, used for security units, but also functions as a general purpose spine for anybody who gets told to grow a spine.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACbionicspine</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACWorkerImplant</defName>
+    <label>UAC worker implant</label>
+    <description>An implant given to employees by the UAC to increase productivity for the user.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACImplant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACWorkerImplant</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACLearnerImplant</defName>
+    <label>UAC learner implant</label>
+    <description>Given by the UAC to staff under training, no longer will it take years for employees to master a craft!</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACImplant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACLearnerImplant</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACCombatImplant</defName>
+    <label>UAC combat implant</label>
+    <description>Given by the UAC to security staff prone to mental breakdowns, also enhances combat abilities.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACImplant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACCombatImplant</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- Added organs -->
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACBrainChip</defName>
+    <label>UAC brain chip</label>
+    <description>For when you have more than a serious bump on the head, the UAC has your poor little non-functioning brain covered with it's mighty product, the UAC brain chip.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACImplant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3800</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACBrainImplant</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticLung</defName>
+    <label>UAC synthetic lung</label>
+    <description>Been using too much of those Union Aerospace manufactured cigarettes? Fear not. The UAC has another product for you, their very own brand of synthetic lungs that help you smoke leaves everyday.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticStomach</defName>
+    <label>UAC synthetic stomach</label>
+    <description>Having a bad tummy ache from those UAC manufactured food products that totally do NOT have harmful chemicals in them? Do not worry patron. the UAC has their very own line of synthetic stomachs that will help you ingest just about anything.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1450</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticLiver</defName>
+    <label>UAC synthetic liver</label>
+    <description>Been drinking a lot of alcohol you purchased from the UAC bartenders? Fear not, with this UAC designed synthetic liver, you can go ahead and keep drinking yourself to death.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1650</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticKidney</defName>
+    <label>UAC synthetic kidney</label>
+    <description>Too much uric acid from the UAC fast food chains? Not to worry, the UAC has you covered. Behold, UAC manufactured synthetic kidneys to make your stones go away.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1650</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticHeart</defName>
+    <label>UAC synthetic heart</label>
+    <description>Had your heart broken by the handsome and beautiful UAC scientists? Well, you won't feel very lonely anymore, not with a new UAC produced synthetic heart. You can use your old natural heart as a stuff toy after surgery!</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- Synthetic Parts -->
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticArm</defName>
+    <label>UAC synthetic arm</label>
+    <description>UAC manufactured arm, looks just like a normal human arm.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticLeg</defName>
+    <label>UAC synthetic leg</label>
+    <description>UAC manufactured leg, looks just like a normal human leg.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticHand</defName>
+    <label>UAC synthetic hand</label>
+    <description>UAC manufactured hand, looks just like a normal human hand.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticFoot</defName>
+    <label>UAC synthetic foot</label>
+    <description>UAC manufactured foot, looks just like a normal human foot.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticFinger</defName>
+    <label>UAC synthetic finger</label>
+    <description>UAC manufactured finger, looks just like a normal human finger.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticToe</defName>
+    <label>UAC synthetic toe</label>
+    <description>UAC manufactured toe, looks just like a normal human toe.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticJaw</defName>
+    <label>UAC synthetic jaw</label>
+    <description>UAC manufactured jaw, looks just like a normal human jaw.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticNose</defName>
+    <label>UAC synthetic nose</label>
+    <description>UAC manufactured nose, looks just like a normal human nose.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticEar</defName>
+    <label>UAC synthetic ear</label>
+    <description>UAC manufactured ear, looks just like a normal human ear.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="UACSynthetic">
+    <defName>UACSyntheticEye</defName>
+    <label>UAC synthetic eye</label>
+    <description>UAC manufactured eye, looks just like a normal human eye.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UACSynthetic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>UACOrgan</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>
