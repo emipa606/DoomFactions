@@ -1,19 +1,16 @@
-# DoomFactions
+# [DOOM - Factions (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2048103517)
 
 ![Image](https://i.imgur.com/buuPQel.png)
-
 Update of Chicken Pluckers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1133691528
 
 - [strike]Added CE-support[/strike] Patches now included in the main CE-mod instead
-- For a more vanilla artstyle, try https://steamcommunity.com/sharedfiles/filedetails/?id=2700632371] TasteOfVanilla-ish Doom Faction Retexture by IcyCheeseCake
+- For a more vanilla artstyle, try [https://steamcommunity.com/sharedfiles/filedetails/?id=2700632371]( TasteOfVanilla-ish Doom Faction Retexture) by IcyCheeseCake
 - Updated doom-slayer faction with more of a Doom-feel. Thanks amaotoUsagi!
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 Adds the Union Aerospace Corporation and Space Marine factions in the game. (Non-Hostile)
 Also contains DOOM 2016 weapons and sounds
@@ -28,15 +25,11 @@ DOOM Kit: http://steamcommunity.com/sharedfiles/filedetails/?id=1119466127
 
 ![Image](https://i.imgur.com/xjfBTXL.gif)
 
-
 ![Image](https://i.imgur.com/Ojz8s6a.gif)
-
 
 ![Image](https://i.imgur.com/tjlDugf.png)
 
-
 ![Image](https://i.imgur.com/bsVyjsI.png)
-
 
 
 
@@ -55,16 +48,14 @@ Orion - Organs coding and art base
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
-
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2048103517]![Image](https://img.shields.io/github/v/release/emipa606/DoomFactions?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[https://steamcommunity.com/sharedfiles/filedetails/changelog/2048103517]![Image]((https://img.shields.io/github/v/release/emipa606/DoomFactions?label=latest%20version&style=plastic&color=9f1111&labelColor=black))
