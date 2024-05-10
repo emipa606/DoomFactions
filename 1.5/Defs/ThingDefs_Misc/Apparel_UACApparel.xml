@@ -624,6 +624,9 @@
     </statBases>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+      <shellRenderedBehindHead>false</shellRenderedBehindHead>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
@@ -681,6 +684,9 @@
     </statBases>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+      <shellRenderedBehindHead>false</shellRenderedBehindHead>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
@@ -738,6 +744,9 @@
     </statBases>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+      <shellRenderedBehindHead>false</shellRenderedBehindHead>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
@@ -795,6 +804,9 @@
     </statBases>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+      <shellRenderedBehindHead>false</shellRenderedBehindHead>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
@@ -848,6 +860,7 @@
     </statBases>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>Eyes</li>
       </bodyPartGroups>
@@ -904,6 +917,9 @@
     </statBases>
     <generateCommonality>0.3</generateCommonality>
     <apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+      <shellRenderedBehindHead>false</shellRenderedBehindHead>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
