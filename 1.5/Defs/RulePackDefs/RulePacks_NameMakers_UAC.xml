@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- THE UAC -->
   <RulePackDef>
     <defName>Namegen_UACFactionName</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt; Union Aerospace</li>
-        <li>name-&gt; Union Aerospace Corporation</li>
+        <li>name-> Union Aerospace</li>
+        <li>name-> Union Aerospace Corporation</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -14,9 +14,9 @@
     <defName>Namegen_UACFactionBase</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt; UAC Project [opname] [basename]</li>
-        <li>name-&gt; UAC [planet] branch, sector [milletter]</li>
-        <li>name-&gt; Union Aerospace, [basename] [milletter]</li>
+        <li>name-> UAC Project [opname] [basename]</li>
+        <li>name-> UAC [planet] branch, sector [milletter]</li>
+        <li>name-> Union Aerospace, [basename] [milletter]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">

@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- THE UAC -->
   <RulePackDef>
     <defName>Namegen_SpaceMarineFactionName</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt; 4th Platoon, 2nd Space Marines</li>
-        <li>name-&gt; 7th Platoon, Doom Slayers</li>
-        <li>name-&gt; 6th Platoon, Hell Walkers</li>
-        <li>name-&gt; 1st Platoon, Rip and Tear</li>
+        <li>name-> 4th Platoon, 2nd Space Marines</li>
+        <li>name-> 7th Platoon, Doom Slayers</li>
+        <li>name-> 6th Platoon, Hell Walkers</li>
+        <li>name-> 1st Platoon, Rip and Tear</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -16,12 +16,12 @@
     <defName>Namegen_SpaceMarineBasename</defName>
     <rulePack>
       <rulesStrings>
-        <li>name-&gt; Camp Lejeune</li>
-        <li>name-&gt; Chosin Resevoir</li>
-        <li>name-&gt; Guadalcanal</li>
-        <li>name-&gt; Iwo Jima</li>
-        <li>name-&gt; Chesty Puller Outpost</li>
-        <li>name-&gt; Hell Walkers, Camp [milletter]</li>
+        <li>name-> Camp Lejeune</li>
+        <li>name-> Chosin Resevoir</li>
+        <li>name-> Guadalcanal</li>
+        <li>name-> Iwo Jima</li>
+        <li>name-> Chesty Puller Outpost</li>
+        <li>name-> Hell Walkers, Camp [milletter]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">

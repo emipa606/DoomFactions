@@ -1,5 +1,8 @@
 # Changelog for DoomFactions
 
+1.5.2 - Fixed bionics not counting for body-modifications
+
+
 1.5.1 - Updated draw-parameters for headgear, thanks Airomeda
 
 

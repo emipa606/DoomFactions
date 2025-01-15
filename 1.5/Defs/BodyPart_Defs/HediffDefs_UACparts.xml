@@ -1,37 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  <HediffDef Name="addedPartUAC" Abstract="True">
-    <hediffClass>Hediff_Implant</hediffClass>
+  <HediffDef Name="addedPartUAC" Abstract="True" ParentName="ImplantHediffBase">
     <description>artificial bodypart</description>
     <defaultLabelColor>(58,121,227)</defaultLabelColor>
-    <isBad>false</isBad>
     <addedPartProps>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <HediffDef Name="addedImplantUAC" Abstract="True">
-    <hediffClass>Hediff_Implant</hediffClass>
+  <HediffDef Name="addedImplantUAC" Abstract="True" ParentName="ImplantHediffBase">
     <description>implant</description>
     <defaultLabelColor>(136,0,218)</defaultLabelColor>
-    <isBad>false</isBad>
     <addedPartProps>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <HediffDef Name="addedOrganUAC" Abstract="True">
-    <hediffClass>Hediff_Implant</hediffClass>
+  <HediffDef Name="addedOrganUAC" Abstract="True" ParentName="ImplantHediffBase">
     <description>artificial organ</description>
     <defaultLabelColor>(136,0,218)</defaultLabelColor>
-    <isBad>false</isBad>
     <addedPartProps>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <HediffDef Name="addedSynthPart" Abstract="True">
-    <hediffClass>Hediff_Implant</hediffClass>
+  <HediffDef Name="addedSynthPart" Abstract="True" ParentName="ImplantHediffBase">
     <description>synthetic bodypart</description>
     <defaultLabelColor>(163,241,255)</defaultLabelColor>
-    <isBad>false</isBad>
     <addedPartProps>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
