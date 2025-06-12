@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: UAC Armor -->
+  <UAC_Armor.label>UAC Armor</UAC_Armor.label>
+  <!-- EN: UAC Clothing -->
+  <UAC_Clothing.label>UAC Clothing</UAC_Clothing.label>
+  <!-- EN: UAC Ranged Weapons -->
+  <UAC_Guns.label>UAC Ranged Weapons</UAC_Guns.label>
+  <!-- EN: UAC Headgear -->
+  <UAC_hats.label>UAC Headgear</UAC_hats.label>
+  <!-- EN: UAC Items -->
+  <UAC_Items.label>UAC Items</UAC_Items.label>
+  <!-- EN: UAC Melee Weapons -->
+  <UAC_Melee.label>UAC Melee Weapons</UAC_Melee.label>
+  <!-- EN: UAC Apparel -->
+  <UACcategories.label>UAC Apparel</UACcategories.label>
+</LanguageData>

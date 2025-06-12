@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ===============DIVIDER============== -->
+  <!--BFG-->
+  <SoundDef>
+    <defName>Shot_UACBFG9000</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/BFG2016Fire</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Hit_UACBFG9000</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/BFG2016Hit</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--Pistol-->
+  <SoundDef>
+    <defName>Fire_UACPistol</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/UACEMGPistol</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--PlasmaGun-->
+  <SoundDef>
+    <defName>Fire_UACPlasmagun</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Plasma2016</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--Shotgun-->
+  <SoundDef>
+    <defName>Fire_UACCombatShotgun</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/CombatShotgun</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--Hellshot-->
+  <SoundDef>
+    <defName>Fire_UACHellshot</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Hellshot</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--Vortex-->
+  <SoundDef>
+    <defName>Fire_UACVortex</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/VortexShot</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--Heavy Assault Rifle-->
+  <SoundDef>
+    <defName>Fire_UACHeavyAssaultRifle</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/UACHeavyAssault</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--CHAINGUN-->
+  <SoundDef>
+    <defName>Fire_UACChaingun</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/UACChaingun</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--GAUSS-->
+  <SoundDef>
+    <defName>Fire_UACGAUSS</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/GAUSS2016</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============DIVIDER============== -->
+  <!--Rocket-->
+  <SoundDef>
+    <defName>Fire_UACRocketLauncher</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/RocketLauncher2016</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============CHAINSAW============== -->
+  <!--PICKUP-->
+  <SoundDef>
+    <defName>Pickup_UACChainsaw</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/chainsaw2016Pickup</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--HIT-->
+  <SoundDef>
+    <defName>Fire_UACChainsaw</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/chainsaw2016hit</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!-- ===============CHAINSAW============== -->
+  <!--PICKUP-->
+  <SoundDef>
+    <defName>ShotUACSuperShotgun</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/ShotUACSuperShotgun</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

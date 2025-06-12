@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <RecipeDef Abstract="True" Name="RecipeUACProsthesis">
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <unfinishedThingDef>UnfinishedUACProsthesis</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workAmount>25000</workAmount>
+    <researchPrerequisite>MultiAnalyzer</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>UACOrgansTable</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CraftUACbionicspine</defName>
+    <label>Craft UAC bionic spine</label>
+    <description>Crafts a UAC bionic spine.</description>
+    <jobString>crafting bionic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACbionicspine>1</UACbionicspine>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CraftUACbioniceye</defName>
+    <label>Craft UAC bionic eye</label>
+    <description>Crafts a UAC bionic eye.</description>
+    <jobString>crafting bionic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACbioniceye>1</UACbioniceye>
+    </products>
+  </RecipeDef>
+  <!-- Synthetic part -->
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticLeg</defName>
+    <label>Create UAC synthetic leg</label>
+    <description>Creates a UAC synthetic leg.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>45</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticLeg>1</UACSyntheticLeg>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticArm</defName>
+    <label>Create UAC synthetic arm</label>
+    <description>Creates a UAC synthetic arm.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticArm>1</UACSyntheticArm>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticHand</defName>
+    <label>Create UAC synthetic hand</label>
+    <description>Creates a UAC synthetic hand.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticHand>1</UACSyntheticHand>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticFoot</defName>
+    <label>Create UAC synthetic foot</label>
+    <description>Creates a UAC synthetic foot.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticFoot>1</UACSyntheticFoot>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticFinger</defName>
+    <label>Create UAC synthetic finger</label>
+    <description>Creates a UAC synthetic finger</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticFinger>1</UACSyntheticFinger>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticToe</defName>
+    <label>Create UAC synthetic toe</label>
+    <description>Creates a UAC synthetic toe</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticToe>1</UACSyntheticToe>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticEye</defName>
+    <label>Create UAC synthetic eye</label>
+    <description>Creates a UAC synthetic eye</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticEye>1</UACSyntheticEye>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticEar</defName>
+    <label>Create UAC synthetic ear</label>
+    <description>Creates a UAC synthetic ear</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticEar>1</UACSyntheticEar>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticNose</defName>
+    <label>Create UAC synthetic nose</label>
+    <description>Creates a UAC synthetic nose</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticNose>1</UACSyntheticNose>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticJaw</defName>
+    <label>Create UAC synthetic jaw</label>
+    <description>Creates a UAC synthetic jaw</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticJaw>1</UACSyntheticJaw>
+    </products>
+  </RecipeDef>
+  <!-- Implants -->
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CraftUACworkerimplant</defName>
+    <label>Craft UAC worker implant</label>
+    <description>Crafts a UAC worker implant.</description>
+    <jobString>crafting bionic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACWorkerImplant>1</UACWorkerImplant>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CraftUACLearnerImplant</defName>
+    <label>Craft UAC learner implant</label>
+    <description>Crafts a UAC learner implant.</description>
+    <jobString>crafting bionic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACLearnerImplant>1</UACLearnerImplant>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CraftUACCombatImplant</defName>
+    <label>Craft UAC Combat Implant</label>
+    <description>Crafts a UAC combat implant.</description>
+    <jobString>crafting bionic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACCombatImplant>1</UACCombatImplant>
+    </products>
+  </RecipeDef>
+  <!--Organs-->
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreatUACBrainChip</defName>
+    <label>Craft UAC brain chip</label>
+    <description>Creates a UAC brain chip.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACBrainChip>1</UACBrainChip>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticLung</defName>
+    <label>Create UAC synthetic lung</label>
+    <description>Creates a UAC synthetic lung.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticLung>1</UACSyntheticLung>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticStomach</defName>
+    <label>Create UAC synthetic stomach</label>
+    <description>Creates a UAC synthetic stomach.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticStomach>1</UACSyntheticStomach>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticLiver</defName>
+    <label>Create UAC synthetic liver</label>
+    <description>Creates a UAC synthetic liver.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticLiver>1</UACSyntheticLiver>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticKidney</defName>
+    <label>Create UAC synthetic kidney</label>
+    <description>Creates a UAC synthetic kidney.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticKidney>1</UACSyntheticKidney>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="RecipeUACProsthesis">
+    <defName>CreateUACSyntheticHeart</defName>
+    <label>Create UAC synthetic heart</label>
+    <description>Creates a UAC synthetic heart.</description>
+    <jobString>crafting synthetic.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <UACSyntheticHeart>1</UACSyntheticHeart>
+    </products>
+  </RecipeDef>
+</Defs>

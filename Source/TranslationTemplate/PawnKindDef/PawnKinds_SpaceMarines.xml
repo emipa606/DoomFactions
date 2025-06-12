@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Berserker -->
+  <Doom_MarineBerserker.label>Berserker</Doom_MarineBerserker.label>
+  <!-- EN: Platoon Leader -->
+  <Doom_MarineBoss.label>Platoon Leader</Doom_MarineBoss.label>
+  <!-- EN: Space Marine -->
+  <Doom_MarineHeavy.label>Space Marine</Doom_MarineHeavy.label>
+  <!-- EN: Space Marine -->
+  <Doom_MarineLight.label>Space Marine</Doom_MarineLight.label>
+  <!-- EN: Space Marine -->
+  <Doom_MarineSniper.label>Space Marine</Doom_MarineSniper.label>
+  <!-- EN: Trader -->
+  <DoomMarine_Trader.label>Trader</DoomMarine_Trader.label>
+</LanguageData>

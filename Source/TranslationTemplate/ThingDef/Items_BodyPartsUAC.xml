@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: UAC bionic eye -->
+  <UACbioniceye.label>UAC bionic eye</UACbioniceye.label>
+  <!-- EN: Bionic eye under UAC specifications, used for security units, but also functions as a general purpose eye for anybody who just needs a new one. -->
+  <UACbioniceye.description>Bionic eye under UAC specifications, used for security units, but also functions as a general purpose eye for anybody who just needs a new one.</UACbioniceye.description>
+  <!-- EN: UAC bionic spine -->
+  <UACbionicspine.label>UAC bionic spine</UACbionicspine.label>
+  <!-- EN: Bionic spine under UAC specifications, used for security units, but also functions as a general purpose spine for anybody who gets told to grow a spine. -->
+  <UACbionicspine.description>Bionic spine under UAC specifications, used for security units, but also functions as a general purpose spine for anybody who gets told to grow a spine.</UACbionicspine.description>
+  <!-- EN: UAC brain chip -->
+  <UACBrainChip.label>UAC brain chip</UACBrainChip.label>
+  <!-- EN: For when you have more than a serious bump on the head, the UAC has your poor little non-functioning brain covered with it's mighty product, the UAC brain chip. -->
+  <UACBrainChip.description>For when you have more than a serious bump on the head, the UAC has your poor little non-functioning brain covered with it's mighty product, the UAC brain chip.</UACBrainChip.description>
+  <!-- EN: UAC combat implant -->
+  <UACCombatImplant.label>UAC combat implant</UACCombatImplant.label>
+  <!-- EN: Given by the UAC to security staff prone to mental breakdowns, also enhances combat abilities. -->
+  <UACCombatImplant.description>Given by the UAC to security staff prone to mental breakdowns, also enhances combat abilities.</UACCombatImplant.description>
+  <!-- EN: UAC learner implant -->
+  <UACLearnerImplant.label>UAC learner implant</UACLearnerImplant.label>
+  <!-- EN: Given by the UAC to staff under training, no longer will it take years for employees to master a craft! -->
+  <UACLearnerImplant.description>Given by the UAC to staff under training, no longer will it take years for employees to master a craft!</UACLearnerImplant.description>
+  <!-- EN: UAC synthetic arm -->
+  <UACSyntheticArm.label>UAC synthetic arm</UACSyntheticArm.label>
+  <!-- EN: UAC manufactured arm, looks just like a normal human arm. -->
+  <UACSyntheticArm.description>UAC manufactured arm, looks just like a normal human arm.</UACSyntheticArm.description>
+  <!-- EN: UAC synthetic ear -->
+  <UACSyntheticEar.label>UAC synthetic ear</UACSyntheticEar.label>
+  <!-- EN: UAC manufactured ear, looks just like a normal human ear. -->
+  <UACSyntheticEar.description>UAC manufactured ear, looks just like a normal human ear.</UACSyntheticEar.description>
+  <!-- EN: UAC synthetic eye -->
+  <UACSyntheticEye.label>UAC synthetic eye</UACSyntheticEye.label>
+  <!-- EN: UAC manufactured eye, looks just like a normal human eye. -->
+  <UACSyntheticEye.description>UAC manufactured eye, looks just like a normal human eye.</UACSyntheticEye.description>
+  <!-- EN: UAC synthetic finger -->
+  <UACSyntheticFinger.label>UAC synthetic finger</UACSyntheticFinger.label>
+  <!-- EN: UAC manufactured finger, looks just like a normal human finger. -->
+  <UACSyntheticFinger.description>UAC manufactured finger, looks just like a normal human finger.</UACSyntheticFinger.description>
+  <!-- EN: UAC synthetic foot -->
+  <UACSyntheticFoot.label>UAC synthetic foot</UACSyntheticFoot.label>
+  <!-- EN: UAC manufactured foot, looks just like a normal human foot. -->
+  <UACSyntheticFoot.description>UAC manufactured foot, looks just like a normal human foot.</UACSyntheticFoot.description>
+  <!-- EN: UAC synthetic hand -->
+  <UACSyntheticHand.label>UAC synthetic hand</UACSyntheticHand.label>
+  <!-- EN: UAC manufactured hand, looks just like a normal human hand. -->
+  <UACSyntheticHand.description>UAC manufactured hand, looks just like a normal human hand.</UACSyntheticHand.description>
+  <!-- EN: UAC synthetic heart -->
+  <UACSyntheticHeart.label>UAC synthetic heart</UACSyntheticHeart.label>
+  <!-- EN: Had your heart broken by the handsome and beautiful UAC scientists? Well, you won't feel very lonely anymore, not with a new UAC produced synthetic heart. You can use your old natural heart as a stuff toy after surgery! -->
+  <UACSyntheticHeart.description>Had your heart broken by the handsome and beautiful UAC scientists? Well, you won't feel very lonely anymore, not with a new UAC produced synthetic heart. You can use your old natural heart as a stuff toy after surgery!</UACSyntheticHeart.description>
+  <!-- EN: UAC synthetic jaw -->
+  <UACSyntheticJaw.label>UAC synthetic jaw</UACSyntheticJaw.label>
+  <!-- EN: UAC manufactured jaw, looks just like a normal human jaw. -->
+  <UACSyntheticJaw.description>UAC manufactured jaw, looks just like a normal human jaw.</UACSyntheticJaw.description>
+  <!-- EN: UAC synthetic kidney -->
+  <UACSyntheticKidney.label>UAC synthetic kidney</UACSyntheticKidney.label>
+  <!-- EN: Too much uric acid from the UAC fast food chains? Not to worry, the UAC has you covered. Behold, UAC manufactured synthetic kidneys to make your stones go away. -->
+  <UACSyntheticKidney.description>Too much uric acid from the UAC fast food chains? Not to worry, the UAC has you covered. Behold, UAC manufactured synthetic kidneys to make your stones go away.</UACSyntheticKidney.description>
+  <!-- EN: UAC synthetic leg -->
+  <UACSyntheticLeg.label>UAC synthetic leg</UACSyntheticLeg.label>
+  <!-- EN: UAC manufactured leg, looks just like a normal human leg. -->
+  <UACSyntheticLeg.description>UAC manufactured leg, looks just like a normal human leg.</UACSyntheticLeg.description>
+  <!-- EN: UAC synthetic liver -->
+  <UACSyntheticLiver.label>UAC synthetic liver</UACSyntheticLiver.label>
+  <!-- EN: Been drinking a lot of alcohol you purchased from the UAC bartenders? Fear not, with this UAC designed synthetic liver, you can go ahead and keep drinking yourself to death. -->
+  <UACSyntheticLiver.description>Been drinking a lot of alcohol you purchased from the UAC bartenders? Fear not, with this UAC designed synthetic liver, you can go ahead and keep drinking yourself to death.</UACSyntheticLiver.description>
+  <!-- EN: UAC synthetic lung -->
+  <UACSyntheticLung.label>UAC synthetic lung</UACSyntheticLung.label>
+  <!-- EN: Been using too much of those Union Aerospace manufactured cigarettes? Fear not. The UAC has another product for you, their very own brand of synthetic lungs that help you smoke leaves everyday. -->
+  <UACSyntheticLung.description>Been using too much of those Union Aerospace manufactured cigarettes? Fear not. The UAC has another product for you, their very own brand of synthetic lungs that help you smoke leaves everyday.</UACSyntheticLung.description>
+  <!-- EN: UAC synthetic nose -->
+  <UACSyntheticNose.label>UAC synthetic nose</UACSyntheticNose.label>
+  <!-- EN: UAC manufactured nose, looks just like a normal human nose. -->
+  <UACSyntheticNose.description>UAC manufactured nose, looks just like a normal human nose.</UACSyntheticNose.description>
+  <!-- EN: UAC synthetic stomach -->
+  <UACSyntheticStomach.label>UAC synthetic stomach</UACSyntheticStomach.label>
+  <!-- EN: Having a bad tummy ache from those UAC manufactured food products that totally do NOT have harmful chemicals in them? Do not worry patron. the UAC has their very own line of synthetic stomachs that will help you ingest just about anything. -->
+  <UACSyntheticStomach.description>Having a bad tummy ache from those UAC manufactured food products that totally do NOT have harmful chemicals in them? Do not worry patron. the UAC has their very own line of synthetic stomachs that will help you ingest just about anything.</UACSyntheticStomach.description>
+  <!-- EN: UAC synthetic toe -->
+  <UACSyntheticToe.label>UAC synthetic toe</UACSyntheticToe.label>
+  <!-- EN: UAC manufactured toe, looks just like a normal human toe. -->
+  <UACSyntheticToe.description>UAC manufactured toe, looks just like a normal human toe.</UACSyntheticToe.description>
+  <!-- EN: UAC worker implant -->
+  <UACWorkerImplant.label>UAC worker implant</UACWorkerImplant.label>
+  <!-- EN: An implant given to employees by the UAC to increase productivity for the user. -->
+  <UACWorkerImplant.description>An implant given to employees by the UAC to increase productivity for the user.</UACWorkerImplant.description>
+</LanguageData>

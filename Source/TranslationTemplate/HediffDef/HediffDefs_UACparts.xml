@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: UAC bionic eye -->
+  <UACbioniceye.label>UAC bionic eye</UACbioniceye.label>
+  <!-- EN: artificial bodypart -->
+  <UACbioniceye.description>artificial bodypart</UACbioniceye.description>
+  <!-- EN: UAC bionic spine -->
+  <UACbionicspine.label>UAC bionic spine</UACbionicspine.label>
+  <!-- EN: artificial bodypart -->
+  <UACbionicspine.description>artificial bodypart</UACbionicspine.description>
+  <!-- EN: UAC Brain Chip -->
+  <UACBrainChip.label>UAC Brain Chip</UACBrainChip.label>
+  <!-- EN: artificial organ -->
+  <UACBrainChip.description>artificial organ</UACBrainChip.description>
+  <!-- EN: UAC combat implant -->
+  <UACCombatImplant.label>UAC combat implant</UACCombatImplant.label>
+  <!-- EN: implant -->
+  <UACCombatImplant.description>implant</UACCombatImplant.description>
+  <!-- EN: UAC learner implant -->
+  <UACLearnerImplant.label>UAC learner implant</UACLearnerImplant.label>
+  <!-- EN: implant -->
+  <UACLearnerImplant.description>implant</UACLearnerImplant.description>
+  <!-- EN: UAC synthetic arm -->
+  <UACSyntheticArm.label>UAC synthetic arm</UACSyntheticArm.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticArm.description>synthetic bodypart</UACSyntheticArm.description>
+  <!-- EN: UAC synthetic ear -->
+  <UACSyntheticEar.label>UAC synthetic ear</UACSyntheticEar.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticEar.description>synthetic bodypart</UACSyntheticEar.description>
+  <!-- EN: UAC synthetic eye -->
+  <UACSyntheticEye.label>UAC synthetic eye</UACSyntheticEye.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticEye.description>synthetic bodypart</UACSyntheticEye.description>
+  <!-- EN: UAC synthetic finger -->
+  <UACSyntheticFinger.label>UAC synthetic finger</UACSyntheticFinger.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticFinger.description>synthetic bodypart</UACSyntheticFinger.description>
+  <!-- EN: UAC synthetic foot -->
+  <UACSyntheticFoot.label>UAC synthetic foot</UACSyntheticFoot.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticFoot.description>synthetic bodypart</UACSyntheticFoot.description>
+  <!-- EN: UAC synthetic hand -->
+  <UACSyntheticHand.label>UAC synthetic hand</UACSyntheticHand.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticHand.description>synthetic bodypart</UACSyntheticHand.description>
+  <!-- EN: UAC synthetic heart -->
+  <UACSyntheticHeart.label>UAC synthetic heart</UACSyntheticHeart.label>
+  <!-- EN: artificial organ -->
+  <UACSyntheticHeart.description>artificial organ</UACSyntheticHeart.description>
+  <!-- EN: UAC synthetic jaw -->
+  <UACSyntheticJaw.label>UAC synthetic jaw</UACSyntheticJaw.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticJaw.description>synthetic bodypart</UACSyntheticJaw.description>
+  <!-- EN: UAC synthetic kidney -->
+  <UACSyntheticKidney.label>UAC synthetic kidney</UACSyntheticKidney.label>
+  <!-- EN: artificial organ -->
+  <UACSyntheticKidney.description>artificial organ</UACSyntheticKidney.description>
+  <!-- EN: UAC synthetic leg -->
+  <UACSyntheticLeg.label>UAC synthetic leg</UACSyntheticLeg.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticLeg.description>synthetic bodypart</UACSyntheticLeg.description>
+  <!-- EN: UAC synthetic liver -->
+  <UACSyntheticLiver.label>UAC synthetic liver</UACSyntheticLiver.label>
+  <!-- EN: artificial organ -->
+  <UACSyntheticLiver.description>artificial organ</UACSyntheticLiver.description>
+  <!-- EN: UAC synthetic lung -->
+  <UACSyntheticLung.label>UAC synthetic lung</UACSyntheticLung.label>
+  <!-- EN: artificial organ -->
+  <UACSyntheticLung.description>artificial organ</UACSyntheticLung.description>
+  <!-- EN: UAC synthetic nose -->
+  <UACSyntheticNose.label>UAC synthetic nose</UACSyntheticNose.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticNose.description>synthetic bodypart</UACSyntheticNose.description>
+  <!-- EN: UAC synthetic stomach -->
+  <UACSyntheticStomach.label>UAC synthetic stomach</UACSyntheticStomach.label>
+  <!-- EN: artificial organ -->
+  <UACSyntheticStomach.description>artificial organ</UACSyntheticStomach.description>
+  <!-- EN: UAC synthetic toe -->
+  <UACSyntheticToe.label>UAC synthetic toe</UACSyntheticToe.label>
+  <!-- EN: synthetic bodypart -->
+  <UACSyntheticToe.description>synthetic bodypart</UACSyntheticToe.description>
+  <!-- EN: UAC worker implant -->
+  <UACWorkerImplant.label>UAC worker implant</UACWorkerImplant.label>
+  <!-- EN: implant -->
+  <UACWorkerImplant.description>implant</UACWorkerImplant.description>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Plasm BFG -->
+  <UAC_BFG.label>Plasm BFG</UAC_BFG.label>
+  <!-- EN: {0} was DESTROYED. -->
+  <UAC_BFG.deathMessage>{0} was DESTROYED.</UAC_BFG.deathMessage>
+  <!-- EN: Plasm GAUSS -->
+  <UAC_GAUSS.label>Plasm GAUSS</UAC_GAUSS.label>
+  <!-- EN: {0} has been obliterated. -->
+  <UAC_GAUSS.deathMessage>{0} has been obliterated.</UAC_GAUSS.deathMessage>
+  <!-- EN: Plasm -->
+  <UAC_Plasm.label>Plasm</UAC_Plasm.label>
+  <!-- EN: {0} has been shot to death. -->
+  <UAC_Plasm.deathMessage>{0} has been shot to death.</UAC_Plasm.deathMessage>
+</LanguageData>

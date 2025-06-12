@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Craft UAC bionic eye -->
+  <CraftUACbioniceye.label>Craft UAC bionic eye</CraftUACbioniceye.label>
+  <!-- EN: Crafts a UAC bionic eye. -->
+  <CraftUACbioniceye.description>Crafts a UAC bionic eye.</CraftUACbioniceye.description>
+  <!-- EN: crafting bionic. -->
+  <CraftUACbioniceye.jobString>crafting bionic.</CraftUACbioniceye.jobString>
+  <!-- EN: Craft UAC bionic spine -->
+  <CraftUACbionicspine.label>Craft UAC bionic spine</CraftUACbionicspine.label>
+  <!-- EN: Crafts a UAC bionic spine. -->
+  <CraftUACbionicspine.description>Crafts a UAC bionic spine.</CraftUACbionicspine.description>
+  <!-- EN: crafting bionic. -->
+  <CraftUACbionicspine.jobString>crafting bionic.</CraftUACbionicspine.jobString>
+  <!-- EN: Craft UAC Combat Implant -->
+  <CraftUACCombatImplant.label>Craft UAC Combat Implant</CraftUACCombatImplant.label>
+  <!-- EN: Crafts a UAC combat implant. -->
+  <CraftUACCombatImplant.description>Crafts a UAC combat implant.</CraftUACCombatImplant.description>
+  <!-- EN: crafting bionic. -->
+  <CraftUACCombatImplant.jobString>crafting bionic.</CraftUACCombatImplant.jobString>
+  <!-- EN: Craft UAC learner implant -->
+  <CraftUACLearnerImplant.label>Craft UAC learner implant</CraftUACLearnerImplant.label>
+  <!-- EN: Crafts a UAC learner implant. -->
+  <CraftUACLearnerImplant.description>Crafts a UAC learner implant.</CraftUACLearnerImplant.description>
+  <!-- EN: crafting bionic. -->
+  <CraftUACLearnerImplant.jobString>crafting bionic.</CraftUACLearnerImplant.jobString>
+  <!-- EN: Craft UAC worker implant -->
+  <CraftUACworkerimplant.label>Craft UAC worker implant</CraftUACworkerimplant.label>
+  <!-- EN: Crafts a UAC worker implant. -->
+  <CraftUACworkerimplant.description>Crafts a UAC worker implant.</CraftUACworkerimplant.description>
+  <!-- EN: crafting bionic. -->
+  <CraftUACworkerimplant.jobString>crafting bionic.</CraftUACworkerimplant.jobString>
+  <!-- EN: Create UAC synthetic arm -->
+  <CreateUACSyntheticArm.label>Create UAC synthetic arm</CreateUACSyntheticArm.label>
+  <!-- EN: Creates a UAC synthetic arm. -->
+  <CreateUACSyntheticArm.description>Creates a UAC synthetic arm.</CreateUACSyntheticArm.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticArm.jobString>crafting synthetic.</CreateUACSyntheticArm.jobString>
+  <!-- EN: Create UAC synthetic ear -->
+  <CreateUACSyntheticEar.label>Create UAC synthetic ear</CreateUACSyntheticEar.label>
+  <!-- EN: Creates a UAC synthetic ear -->
+  <CreateUACSyntheticEar.description>Creates a UAC synthetic ear</CreateUACSyntheticEar.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticEar.jobString>crafting synthetic.</CreateUACSyntheticEar.jobString>
+  <!-- EN: Create UAC synthetic eye -->
+  <CreateUACSyntheticEye.label>Create UAC synthetic eye</CreateUACSyntheticEye.label>
+  <!-- EN: Creates a UAC synthetic eye -->
+  <CreateUACSyntheticEye.description>Creates a UAC synthetic eye</CreateUACSyntheticEye.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticEye.jobString>crafting synthetic.</CreateUACSyntheticEye.jobString>
+  <!-- EN: Create UAC synthetic finger -->
+  <CreateUACSyntheticFinger.label>Create UAC synthetic finger</CreateUACSyntheticFinger.label>
+  <!-- EN: Creates a UAC synthetic finger -->
+  <CreateUACSyntheticFinger.description>Creates a UAC synthetic finger</CreateUACSyntheticFinger.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticFinger.jobString>crafting synthetic.</CreateUACSyntheticFinger.jobString>
+  <!-- EN: Create UAC synthetic foot -->
+  <CreateUACSyntheticFoot.label>Create UAC synthetic foot</CreateUACSyntheticFoot.label>
+  <!-- EN: Creates a UAC synthetic foot. -->
+  <CreateUACSyntheticFoot.description>Creates a UAC synthetic foot.</CreateUACSyntheticFoot.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticFoot.jobString>crafting synthetic.</CreateUACSyntheticFoot.jobString>
+  <!-- EN: Create UAC synthetic hand -->
+  <CreateUACSyntheticHand.label>Create UAC synthetic hand</CreateUACSyntheticHand.label>
+  <!-- EN: Creates a UAC synthetic hand. -->
+  <CreateUACSyntheticHand.description>Creates a UAC synthetic hand.</CreateUACSyntheticHand.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticHand.jobString>crafting synthetic.</CreateUACSyntheticHand.jobString>
+  <!-- EN: Create UAC synthetic heart -->
+  <CreateUACSyntheticHeart.label>Create UAC synthetic heart</CreateUACSyntheticHeart.label>
+  <!-- EN: Creates a UAC synthetic heart. -->
+  <CreateUACSyntheticHeart.description>Creates a UAC synthetic heart.</CreateUACSyntheticHeart.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticHeart.jobString>crafting synthetic.</CreateUACSyntheticHeart.jobString>
+  <!-- EN: Create UAC synthetic jaw -->
+  <CreateUACSyntheticJaw.label>Create UAC synthetic jaw</CreateUACSyntheticJaw.label>
+  <!-- EN: Creates a UAC synthetic jaw -->
+  <CreateUACSyntheticJaw.description>Creates a UAC synthetic jaw</CreateUACSyntheticJaw.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticJaw.jobString>crafting synthetic.</CreateUACSyntheticJaw.jobString>
+  <!-- EN: Create UAC synthetic kidney -->
+  <CreateUACSyntheticKidney.label>Create UAC synthetic kidney</CreateUACSyntheticKidney.label>
+  <!-- EN: Creates a UAC synthetic kidney. -->
+  <CreateUACSyntheticKidney.description>Creates a UAC synthetic kidney.</CreateUACSyntheticKidney.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticKidney.jobString>crafting synthetic.</CreateUACSyntheticKidney.jobString>
+  <!-- EN: Create UAC synthetic leg -->
+  <CreateUACSyntheticLeg.label>Create UAC synthetic leg</CreateUACSyntheticLeg.label>
+  <!-- EN: Creates a UAC synthetic leg. -->
+  <CreateUACSyntheticLeg.description>Creates a UAC synthetic leg.</CreateUACSyntheticLeg.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticLeg.jobString>crafting synthetic.</CreateUACSyntheticLeg.jobString>
+  <!-- EN: Create UAC synthetic liver -->
+  <CreateUACSyntheticLiver.label>Create UAC synthetic liver</CreateUACSyntheticLiver.label>
+  <!-- EN: Creates a UAC synthetic liver. -->
+  <CreateUACSyntheticLiver.description>Creates a UAC synthetic liver.</CreateUACSyntheticLiver.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticLiver.jobString>crafting synthetic.</CreateUACSyntheticLiver.jobString>
+  <!-- EN: Create UAC synthetic lung -->
+  <CreateUACSyntheticLung.label>Create UAC synthetic lung</CreateUACSyntheticLung.label>
+  <!-- EN: Creates a UAC synthetic lung. -->
+  <CreateUACSyntheticLung.description>Creates a UAC synthetic lung.</CreateUACSyntheticLung.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticLung.jobString>crafting synthetic.</CreateUACSyntheticLung.jobString>
+  <!-- EN: Create UAC synthetic nose -->
+  <CreateUACSyntheticNose.label>Create UAC synthetic nose</CreateUACSyntheticNose.label>
+  <!-- EN: Creates a UAC synthetic nose -->
+  <CreateUACSyntheticNose.description>Creates a UAC synthetic nose</CreateUACSyntheticNose.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticNose.jobString>crafting synthetic.</CreateUACSyntheticNose.jobString>
+  <!-- EN: Create UAC synthetic stomach -->
+  <CreateUACSyntheticStomach.label>Create UAC synthetic stomach</CreateUACSyntheticStomach.label>
+  <!-- EN: Creates a UAC synthetic stomach. -->
+  <CreateUACSyntheticStomach.description>Creates a UAC synthetic stomach.</CreateUACSyntheticStomach.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticStomach.jobString>crafting synthetic.</CreateUACSyntheticStomach.jobString>
+  <!-- EN: Create UAC synthetic toe -->
+  <CreateUACSyntheticToe.label>Create UAC synthetic toe</CreateUACSyntheticToe.label>
+  <!-- EN: Creates a UAC synthetic toe -->
+  <CreateUACSyntheticToe.description>Creates a UAC synthetic toe</CreateUACSyntheticToe.description>
+  <!-- EN: crafting synthetic. -->
+  <CreateUACSyntheticToe.jobString>crafting synthetic.</CreateUACSyntheticToe.jobString>
+  <!-- EN: Craft UAC brain chip -->
+  <CreatUACBrainChip.label>Craft UAC brain chip</CreatUACBrainChip.label>
+  <!-- EN: Creates a UAC brain chip. -->
+  <CreatUACBrainChip.description>Creates a UAC brain chip.</CreatUACBrainChip.description>
+  <!-- EN: crafting synthetic. -->
+  <CreatUACBrainChip.jobString>crafting synthetic.</CreatUACBrainChip.jobString>
+</LanguageData>

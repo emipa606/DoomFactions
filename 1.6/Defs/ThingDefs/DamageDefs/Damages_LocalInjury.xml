@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef Name="LocalInjuryBase" Abstract="True">
+    <workerClass>DamageWorker_AddInjury</workerClass>
+  </DamageDef>
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>UAC_Plasm</defName>
+    <label>Plasm</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been shot to death.</deathMessage>
+    <hediff>Burn</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+  </DamageDef>
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>UAC_BFG</defName>
+    <label>Plasm BFG</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} was DESTROYED.</deathMessage>
+    <hediff>Burn</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <explosionCellMote>UACMote_BlastBFG</explosionCellMote>
+    <soundExplosion>Hit_UACBFG9000</soundExplosion>
+  </DamageDef>
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>UAC_GAUSS</defName>
+    <label>Plasm GAUSS</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been obliterated.</deathMessage>
+    <hediff>Burn</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <explosionCellMote>UACMote_BlastGAUSS</explosionCellMote>
+    <soundExplosion>Hit_UACBFG9000</soundExplosion>
+  </DamageDef>
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Union Aerospace Installation -->
+  <UAC.label>Union Aerospace Installation</UAC.label>
+  <!-- EN: The UAC, a multi-planetary conglomerate with unlimited resources founded by Thomas Kelliher during the year of 2015.\n\nNobody knows why they are here, but if you are familiar with the incidents and catastrophes that the Union Aerospace has covered up in the past, you might just have the right idea. \n\nEither the UAC is here to clean up a mess they made, or worse, they are about to start a new one. -->
+  <UAC.description>The UAC, a multi-planetary conglomerate with unlimited resources founded by Thomas Kelliher during the year of 2015.
+
+Nobody knows why they are here, but if you are familiar with the incidents and catastrophes that the Union Aerospace has covered up in the past, you might just have the right idea. 
+
+Either the UAC is here to clean up a mess they made, or worse, they are about to start a new one.</UAC.description>
+  <!-- EN: Union Aerospace -->
+  <UAC.fixedName>Union Aerospace</UAC.fixedName>
+  <!-- EN: Executive Officer -->
+  <UAC.leaderTitle>Executive Officer</UAC.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <UAC.messageDefendersAttacking>{0} from {1} are attacking your {2}.</UAC.messageDefendersAttacking>
+  <!-- EN: member -->
+  <UAC.pawnSingular>member</UAC.pawnSingular>
+  <!-- EN: security forces -->
+  <UAC.pawnsPlural>security forces</UAC.pawnsPlural>
+</LanguageData>

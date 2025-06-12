@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: do bills at Doom table -->
+  <DoBillsDOOMATable.label>do bills at Doom table</DoBillsDOOMATable.label>
+  <!-- EN: working at -->
+  <DoBillsDOOMATable.gerund>working at</DoBillsDOOMATable.gerund>
+  <!-- EN: work -->
+  <DoBillsDOOMATable.verb>work</DoBillsDOOMATable.verb>
+  <!-- EN: do bills at UAC organ table -->
+  <DoBillsUACOrganTable.label>do bills at UAC organ table</DoBillsUACOrganTable.label>
+  <!-- EN: working at -->
+  <DoBillsUACOrganTable.gerund>working at</DoBillsUACOrganTable.gerund>
+  <!-- EN: work -->
+  <DoBillsUACOrganTable.verb>work</DoBillsUACOrganTable.verb>
+  <!-- EN: do bills at UAC table -->
+  <DoBillsUACTable.label>do bills at UAC table</DoBillsUACTable.label>
+  <!-- EN: working at -->
+  <DoBillsUACTable.gerund>working at</DoBillsUACTable.gerund>
+  <!-- EN: work -->
+  <DoBillsUACTable.verb>work</DoBillsUACTable.verb>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: DOOM Armor -->
+  <DOOM_Armor.label>DOOM Armor</DOOM_Armor.label>
+  <!-- EN: Doom Ranged Weapons -->
+  <DOOM_Guns.label>Doom Ranged Weapons</DOOM_Guns.label>
+  <!-- EN: DOOM Headgear -->
+  <DOOM_hats.label>DOOM Headgear</DOOM_hats.label>
+  <!-- EN: Doom Melee Weapons -->
+  <DOOM_Melee.label>Doom Melee Weapons</DOOM_Melee.label>
+  <!-- EN: DOOM Apparel -->
+  <DOOMcategories.label>DOOM Apparel</DOOMcategories.label>
+</LanguageData>

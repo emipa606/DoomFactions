@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: UAC ASP helmet -->
+  <Apparel_UACASPHelm.label>UAC ASP helmet</Apparel_UACASPHelm.label>
+  <!-- EN: Standard UAC headgear given to their security forces. -->
+  <Apparel_UACASPHelm.description>Standard UAC headgear given to their security forces.</Apparel_UACASPHelm.description>
+  <!-- EN: UAC business suit -->
+  <Apparel_UACBusinessSuit.label>UAC business suit</Apparel_UACBusinessSuit.label>
+  <!-- EN: A UAC manufactured business suit for those who wish to look formal and professional. -->
+  <Apparel_UACBusinessSuit.description>A UAC manufactured business suit for those who wish to look formal and professional.</Apparel_UACBusinessSuit.description>
+  <!-- EN: UAC nanocarbon suit -->
+  <Apparel_UACCsuit.label>UAC nanocarbon suit</Apparel_UACCsuit.label>
+  <!-- EN: Nanocarbon suit manufactured by the UAC for security forces and staff in general. Can use conventional fabrics, a product of Union Aerospace ingenuity and efficiency! -->
+  <Apparel_UACCsuit.description>Nanocarbon suit manufactured by the UAC for security forces and staff in general. Can use conventional fabrics, a product of Union Aerospace ingenuity and efficiency!</Apparel_UACCsuit.description>
+  <!-- EN: UAC Fractal armor -->
+  <Apparel_UACFractalArmor.label>UAC Fractal armor</Apparel_UACFractalArmor.label>
+  <!-- EN: Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat. -->
+  <Apparel_UACFractalArmor.description>Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat.</Apparel_UACFractalArmor.description>
+  <!-- EN: UAC lab coat -->
+  <Apparel_UACLabcoat.label>UAC lab coat</Apparel_UACLabcoat.label>
+  <!-- EN: A standard issue lab coat given to Union Aerospace research and development staff. -->
+  <Apparel_UACLabcoat.description>A standard issue lab coat given to Union Aerospace research and development staff.</Apparel_UACLabcoat.description>
+  <!-- EN: UAC Elite armor -->
+  <Apparel_UACLEETArmor.label>UAC Elite armor</Apparel_UACLEETArmor.label>
+  <!-- EN: Standard power armor used by the UAC for their elite forces, the type of armor given for virtual training or real combat. -->
+  <Apparel_UACLEETArmor.description>Standard power armor used by the UAC for their elite forces, the type of armor given for virtual training or real combat.</Apparel_UACLEETArmor.description>
+  <!-- EN: UAC Elite helmet -->
+  <Apparel_UACLEETHelm.label>UAC Elite helmet</Apparel_UACLEETHelm.label>
+  <!-- EN: Standard UAC headgear given to their elite forces. -->
+  <Apparel_UACLEETHelm.description>Standard UAC headgear given to their elite forces.</Apparel_UACLEETHelm.description>
+  <!-- EN: UAC Raven armor -->
+  <Apparel_UACRavenArmor.label>UAC Raven armor</Apparel_UACRavenArmor.label>
+  <!-- EN: Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat. -->
+  <Apparel_UACRavenArmor.description>Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat.</Apparel_UACRavenArmor.description>
+  <!-- EN: UAC Raven helmet -->
+  <Apparel_UACRavenHelm.label>UAC Raven helmet</Apparel_UACRavenHelm.label>
+  <!-- EN: Standard UAC headgear given to their security forces. -->
+  <Apparel_UACRavenHelm.description>Standard UAC headgear given to their security forces.</Apparel_UACRavenHelm.description>
+  <!-- EN: UAC sunglasses -->
+  <Apparel_UACShades.label>UAC sunglasses</Apparel_UACShades.label>
+  <!-- EN: UAC manufactured sunglasses with HUD systems. -->
+  <Apparel_UACShades.description>UAC manufactured sunglasses with HUD systems.</Apparel_UACShades.description>
+  <!-- EN: UAC Sheperd armor -->
+  <Apparel_UACSheperdArmor.label>UAC Sheperd armor</Apparel_UACSheperdArmor.label>
+  <!-- EN: Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat. -->
+  <Apparel_UACSheperdArmor.description>Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat.</Apparel_UACSheperdArmor.description>
+  <!-- EN: UAC Sheperd helmet -->
+  <Apparel_UACSheperdHelm.label>UAC Sheperd helmet</Apparel_UACSheperdHelm.label>
+  <!-- EN: Standard UAC headgear given to their security forces. -->
+  <Apparel_UACSheperdHelm.description>Standard UAC headgear given to their security forces.</Apparel_UACSheperdHelm.description>
+  <!-- EN: UAC Tracker armor -->
+  <Apparel_UACTrackerArmor.label>UAC Tracker armor</Apparel_UACTrackerArmor.label>
+  <!-- EN: Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat. -->
+  <Apparel_UACTrackerArmor.description>Standard power armor used by the UAC for their security forces, the type of armor given for virtual training or real combat.</Apparel_UACTrackerArmor.description>
+  <!-- EN: UAC Executive suit -->
+  <Apparel_UACVIPSuit.label>UAC Executive suit</Apparel_UACVIPSuit.label>
+  <!-- EN: A protective business suit given to corporate VIPs of the Union Aerospace. Uses nanocarbon technology. -->
+  <Apparel_UACVIPSuit.description>A protective business suit given to corporate VIPs of the Union Aerospace. Uses nanocarbon technology.</Apparel_UACVIPSuit.description>
+  <!-- EN: UAC Wildcat helmet -->
+  <Apparel_UACWildcatHelm.label>UAC Wildcat helmet</Apparel_UACWildcatHelm.label>
+  <!-- EN: Standard UAC headgear given to their security forces. -->
+  <Apparel_UACWildcatHelm.description>Standard UAC headgear given to their security forces.</Apparel_UACWildcatHelm.description>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Space Marines -->
+  <Doom_Marines.label>Space Marines</Doom_Marines.label>
+  <!-- EN: Nobody knows who these people are or where they came from, all we have are stories.	\n	\nRumors from caravans who have traded with them, are that they are ex-UAC employed Space Marines who have been abandoned in "hell" and had to find their own way out of it, ripping and tearing through legions of demons and opening portals to random worlds. \n\nNot sure if their stories were to be taken seriously or as a joke, these Marines made clear that they are no longer associated with the UAC.\n\nThese Marines are thankfully friendly around local colonies and do what they can to protect others from trouble, a rare sight in this lawless Rim planet. -->
+  <Doom_Marines.description>Nobody knows who these people are or where they came from, all we have are stories.	
+	
+Rumors from caravans who have traded with them, are that they are ex-UAC employed Space Marines who have been abandoned in "hell" and had to find their own way out of it, ripping and tearing through legions of demons and opening portals to random worlds. 
+
+Not sure if their stories were to be taken seriously or as a joke, these Marines made clear that they are no longer associated with the UAC.
+
+These Marines are thankfully friendly around local colonies and do what they can to protect others from trouble, a rare sight in this lawless Rim planet.</Doom_Marines.description>
+  <!-- EN: Platoon Leader -->
+  <Doom_Marines.leaderTitle>Platoon Leader</Doom_Marines.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Doom_Marines.messageDefendersAttacking>{0} from {1} are attacking your {2}.</Doom_Marines.messageDefendersAttacking>
+  <!-- EN: member -->
+  <Doom_Marines.pawnSingular>member</Doom_Marines.pawnSingular>
+  <!-- EN: space marines -->
+  <Doom_Marines.pawnsPlural>space marines</Doom_Marines.pawnsPlural>
+</LanguageData>

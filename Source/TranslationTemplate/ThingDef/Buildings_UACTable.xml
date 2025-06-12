@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: UAC organs table -->
+  <UACOrgansTable.label>UAC organs table</UACOrgansTable.label>
+  <!-- EN: A work table for manufacturing UAC organs, synthetic textiles and medicine. -->
+  <UACOrgansTable.description>A work table for manufacturing UAC organs, synthetic textiles and medicine.</UACOrgansTable.description>
+  <!-- EN: UAC armorer table -->
+  <UACTable.label>UAC armorer table</UACTable.label>
+  <!-- EN: A work table for manufacturing UAC equipment. -->
+  <UACTable.description>A work table for manufacturing UAC equipment.</UACTable.description>
+</LanguageData>

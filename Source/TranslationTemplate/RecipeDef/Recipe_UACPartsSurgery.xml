@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: install UAC bionic eye -->
+  <InstallUACbioniceye.label>install UAC bionic eye</InstallUACbioniceye.label>
+  <!-- EN: Installs UAC bionic eye. -->
+  <InstallUACbioniceye.description>Installs UAC bionic eye.</InstallUACbioniceye.description>
+  <!-- EN: Installing UAC bionic eye. -->
+  <InstallUACbioniceye.jobString>Installing UAC bionic eye.</InstallUACbioniceye.jobString>
+  <!-- EN: install UAC bionic spine -->
+  <InstallUACbionicspine.label>install UAC bionic spine</InstallUACbionicspine.label>
+  <!-- EN: Installs UAC bionic spine. -->
+  <InstallUACbionicspine.description>Installs UAC bionic spine.</InstallUACbionicspine.description>
+  <!-- EN: Installing UAC bionic spine. -->
+  <InstallUACbionicspine.jobString>Installing UAC bionic spine.</InstallUACbionicspine.jobString>
+  <!-- EN: install UAC brain chip -->
+  <InstallUACBrainChip.label>install UAC brain chip</InstallUACBrainChip.label>
+  <!-- EN: Installs brain chip. -->
+  <InstallUACBrainChip.description>Installs brain chip.</InstallUACBrainChip.description>
+  <!-- EN: Installing UAC brain chip. -->
+  <InstallUACBrainChip.jobString>Installing UAC brain chip.</InstallUACBrainChip.jobString>
+  <!-- EN: install UAC learner implant -->
+  <InstallUACLearnerImplant.label>install UAC learner implant</InstallUACLearnerImplant.label>
+  <!-- EN: Installs UAC learner implant. -->
+  <InstallUACLearnerImplant.description>Installs UAC learner implant.</InstallUACLearnerImplant.description>
+  <!-- EN: Installing UAC learner implant. -->
+  <InstallUACLearnerImplant.jobString>Installing UAC learner implant.</InstallUACLearnerImplant.jobString>
+  <!-- EN: install UAC synthetic Arm -->
+  <InstallUACSyntheticArm.label>install UAC synthetic Arm</InstallUACSyntheticArm.label>
+  <!-- EN: Installs a UAC artificial arm. -->
+  <InstallUACSyntheticArm.description>Installs a UAC artificial arm.</InstallUACSyntheticArm.description>
+  <!-- EN: Installing a UAC artificial arm. -->
+  <InstallUACSyntheticArm.jobString>Installing a UAC artificial arm.</InstallUACSyntheticArm.jobString>
+  <!-- EN: install UAC synthetic ear -->
+  <InstallUACSyntheticEar.label>install UAC synthetic ear</InstallUACSyntheticEar.label>
+  <!-- EN: Installs a UAC artificial ear. -->
+  <InstallUACSyntheticEar.description>Installs a UAC artificial ear.</InstallUACSyntheticEar.description>
+  <!-- EN: Installing a UAC artificial ear. -->
+  <InstallUACSyntheticEar.jobString>Installing a UAC artificial ear.</InstallUACSyntheticEar.jobString>
+  <!-- EN: install UAC synthetic eye -->
+  <InstallUACSyntheticEye.label>install UAC synthetic eye</InstallUACSyntheticEye.label>
+  <!-- EN: Installs a UAC artificial eye. -->
+  <InstallUACSyntheticEye.description>Installs a UAC artificial eye.</InstallUACSyntheticEye.description>
+  <!-- EN: Installing a UAC artificial eye. -->
+  <InstallUACSyntheticEye.jobString>Installing a UAC artificial eye.</InstallUACSyntheticEye.jobString>
+  <!-- EN: install UAC synthetic finger -->
+  <InstallUACSyntheticFinger.label>install UAC synthetic finger</InstallUACSyntheticFinger.label>
+  <!-- EN: Installs a UAC artificial finger. -->
+  <InstallUACSyntheticFinger.description>Installs a UAC artificial finger.</InstallUACSyntheticFinger.description>
+  <!-- EN: Installing a UAC artificial finger. -->
+  <InstallUACSyntheticFinger.jobString>Installing a UAC artificial finger.</InstallUACSyntheticFinger.jobString>
+  <!-- EN: install UAC synthetic foot -->
+  <InstallUACSyntheticFoot.label>install UAC synthetic foot</InstallUACSyntheticFoot.label>
+  <!-- EN: Installs a UAC artificial foot. -->
+  <InstallUACSyntheticFoot.description>Installs a UAC artificial foot.</InstallUACSyntheticFoot.description>
+  <!-- EN: Installing a UAC artificial foot. -->
+  <InstallUACSyntheticFoot.jobString>Installing a UAC artificial foot.</InstallUACSyntheticFoot.jobString>
+  <!-- EN: install UAC synthetic hand -->
+  <InstallUACSyntheticHand.label>install UAC synthetic hand</InstallUACSyntheticHand.label>
+  <!-- EN: Installs a UAC artificial hand. -->
+  <InstallUACSyntheticHand.description>Installs a UAC artificial hand.</InstallUACSyntheticHand.description>
+  <!-- EN: Installing a UAC artificial hand. -->
+  <InstallUACSyntheticHand.jobString>Installing a UAC artificial hand.</InstallUACSyntheticHand.jobString>
+  <!-- EN: install UAC synthetic heart -->
+  <InstallUACSyntheticHeart.label>install UAC synthetic heart</InstallUACSyntheticHeart.label>
+  <!-- EN: Installs a UAC artificial heart. -->
+  <InstallUACSyntheticHeart.description>Installs a UAC artificial heart.</InstallUACSyntheticHeart.description>
+  <!-- EN: Installing a UAC artificial heart. -->
+  <InstallUACSyntheticHeart.jobString>Installing a UAC artificial heart.</InstallUACSyntheticHeart.jobString>
+  <!-- EN: install UAC synthetic jaw -->
+  <InstallUACSyntheticJaw.label>install UAC synthetic jaw</InstallUACSyntheticJaw.label>
+  <!-- EN: Installs a UAC artificial jaw. -->
+  <InstallUACSyntheticJaw.description>Installs a UAC artificial jaw.</InstallUACSyntheticJaw.description>
+  <!-- EN: Installing a UAC artificial jaw. -->
+  <InstallUACSyntheticJaw.jobString>Installing a UAC artificial jaw.</InstallUACSyntheticJaw.jobString>
+  <!-- EN: install UAC synthetic kidney -->
+  <InstallUACSyntheticKidney.label>install UAC synthetic kidney</InstallUACSyntheticKidney.label>
+  <!-- EN: Installs UAC synthetic kidney. -->
+  <InstallUACSyntheticKidney.description>Installs UAC synthetic kidney.</InstallUACSyntheticKidney.description>
+  <!-- EN: Installing UAC synthetic kidney. -->
+  <InstallUACSyntheticKidney.jobString>Installing UAC synthetic kidney.</InstallUACSyntheticKidney.jobString>
+  <!-- EN: install UAC synthetic leg -->
+  <InstallUACSyntheticLeg.label>install UAC synthetic leg</InstallUACSyntheticLeg.label>
+  <!-- EN: Installs a UAC artificial leg. -->
+  <InstallUACSyntheticLeg.description>Installs a UAC artificial leg.</InstallUACSyntheticLeg.description>
+  <!-- EN: Installing a UAC artificial leg. -->
+  <InstallUACSyntheticLeg.jobString>Installing a UAC artificial leg.</InstallUACSyntheticLeg.jobString>
+  <!-- EN: install UAC synthetic liver -->
+  <InstallUACSyntheticLiver.label>install UAC synthetic liver</InstallUACSyntheticLiver.label>
+  <!-- EN: Installs a UAC synthetic liver. -->
+  <InstallUACSyntheticLiver.description>Installs a UAC synthetic liver.</InstallUACSyntheticLiver.description>
+  <!-- EN: Installing UAC synthetic liver. -->
+  <InstallUACSyntheticLiver.jobString>Installing UAC synthetic liver.</InstallUACSyntheticLiver.jobString>
+  <!-- EN: install UAC synthetic lung -->
+  <InstallUACSyntheticLung.label>install UAC synthetic lung</InstallUACSyntheticLung.label>
+  <!-- EN: Installs UAC synthetic lung. -->
+  <InstallUACSyntheticLung.description>Installs UAC synthetic lung.</InstallUACSyntheticLung.description>
+  <!-- EN: Installing UAC synthetic lung. -->
+  <InstallUACSyntheticLung.jobString>Installing UAC synthetic lung.</InstallUACSyntheticLung.jobString>
+  <!-- EN: install UAC synthetic nose -->
+  <InstallUACSyntheticNose.label>install UAC synthetic nose</InstallUACSyntheticNose.label>
+  <!-- EN: Installs a UAC artificial nose. -->
+  <InstallUACSyntheticNose.description>Installs a UAC artificial nose.</InstallUACSyntheticNose.description>
+  <!-- EN: Installing a UAC artificial nose. -->
+  <InstallUACSyntheticNose.jobString>Installing a UAC artificial nose.</InstallUACSyntheticNose.jobString>
+  <!-- EN: install UAC synthetic stomach -->
+  <InstallUACSyntheticStomach.label>install UAC synthetic stomach</InstallUACSyntheticStomach.label>
+  <!-- EN: Installs UAC synthetic stomach. -->
+  <InstallUACSyntheticStomach.description>Installs UAC synthetic stomach.</InstallUACSyntheticStomach.description>
+  <!-- EN: Installing UAC synthetic stomach. -->
+  <InstallUACSyntheticStomach.jobString>Installing UAC synthetic stomach.</InstallUACSyntheticStomach.jobString>
+  <!-- EN: install UAC synthetic toe -->
+  <InstallUACSyntheticToe.label>install UAC synthetic toe</InstallUACSyntheticToe.label>
+  <!-- EN: Installs a UAC artificial toe. -->
+  <InstallUACSyntheticToe.description>Installs a UAC artificial toe.</InstallUACSyntheticToe.description>
+  <!-- EN: Installing a UAC artificial toe. -->
+  <InstallUACSyntheticToe.jobString>Installing a UAC artificial toe.</InstallUACSyntheticToe.jobString>
+  <!-- EN: install UAC worker implant -->
+  <InstallUACWorkerImplant.label>install UAC worker implant</InstallUACWorkerImplant.label>
+  <!-- EN: Installs UAC worker implant. -->
+  <InstallUACWorkerImplant.description>Installs UAC worker implant.</InstallUACWorkerImplant.description>
+  <!-- EN: Installing UAC worker implant. -->
+  <InstallUACWorkerImplant.jobString>Installing UAC worker implant.</InstallUACWorkerImplant.jobString>
+  <!-- EN: install UAC combat implant -->
+  <UACCombatImplant.label>install UAC combat implant</UACCombatImplant.label>
+  <!-- EN: Installs UAC combat implant. -->
+  <UACCombatImplant.description>Installs UAC combat implant.</UACCombatImplant.description>
+  <!-- EN: Installing UAC combat implant. -->
+  <UACCombatImplant.jobString>Installing UAC combat implant.</UACCombatImplant.jobString>
+</LanguageData>

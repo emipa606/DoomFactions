@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: create glitterworld medicine -->
+  <UACCreateGlitterworldMedicine.label>create glitterworld medicine</UACCreateGlitterworldMedicine.label>
+  <!-- EN: Create x5 glitterworld medicine from medicine and hyperweave. -->
+  <UACCreateGlitterworldMedicine.description>Create x5 glitterworld medicine from medicine and hyperweave.</UACCreateGlitterworldMedicine.description>
+  <!-- EN: create hyperweave -->
+  <UACCreateHyperweave.label>create hyperweave</UACCreateHyperweave.label>
+  <!-- EN: Create x75 hyperweave from cloth and components. -->
+  <UACCreateHyperweave.description>Create x75 hyperweave from cloth and components.</UACCreateHyperweave.description>
+  <!-- EN: create medicine -->
+  <UACCreateMedicine.label>create medicine</UACCreateMedicine.label>
+  <!-- EN: Creates x10 medicine from herbal medicine and synthread. -->
+  <UACCreateMedicine.description>Creates x10 medicine from herbal medicine and synthread.</UACCreateMedicine.description>
+  <!-- EN: create synthread -->
+  <UACCreateSynthread.label>create synthread</UACCreateSynthread.label>
+  <!-- EN: Create x75 synthread from cloth, components and chemfuel. -->
+  <UACCreateSynthread.description>Create x75 synthread from cloth, components and chemfuel.</UACCreateSynthread.description>
+</LanguageData>
