@@ -5,5 +5,11 @@
   "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": " science fiction",
-  "LastXmlCleaning": "2025-06-14T19:33:25.4560551+02:00"
+  "LastXmlCleaning": "2025-07-23T16:30:08.3434714+02:00",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 267540,
+  "CodeBaseSize": 86
 }

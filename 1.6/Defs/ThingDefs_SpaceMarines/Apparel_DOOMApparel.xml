@@ -68,6 +68,7 @@
       <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
       <MentalBreakThreshold>-0.07</MentalBreakThreshold>
       <WorkSpeedGlobal>1</WorkSpeedGlobal>
+      <VacuumResistance>0.32</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--Praetor Helm-->
@@ -108,6 +109,7 @@
       <parentTagDef>ApparelHead</parentTagDef>
       <shellRenderedBehindHead>false</shellRenderedBehindHead>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
@@ -129,6 +131,7 @@
       <AimingDelayFactor>-0.05</AimingDelayFactor>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <ToxicResistance>1</ToxicResistance>
+      <VacuumResistance>0.69</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--DOOM Helm-->
@@ -168,6 +171,7 @@
       <parentTagDef>ApparelHead</parentTagDef>
       <shellRenderedBehindHead>false</shellRenderedBehindHead>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
@@ -188,6 +192,7 @@
       <AimingDelayFactor>-0.05</AimingDelayFactor>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <ToxicResistance>0.90</ToxicResistance>
+      <VacuumResistance>0.69</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>

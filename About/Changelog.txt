@@ -1,5 +1,8 @@
 # Changelog for DoomFactions
 
+1.6.2 - Armors should be space-safe now
+
+
 1.6.1 - Fixed unique asset bundle filename
 
 
