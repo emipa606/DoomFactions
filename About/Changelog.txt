@@ -1,5 +1,8 @@
 # Changelog for DoomFactions
 
+1.6.3 - Fixed mayreqiure for Odyssey properties
+
+
 1.6.2 - Armors should be space-safe now
 
 

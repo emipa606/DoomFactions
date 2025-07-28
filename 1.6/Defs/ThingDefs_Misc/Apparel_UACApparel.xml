@@ -315,7 +315,7 @@
       <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <WorkSpeedGlobal>0.50</WorkSpeedGlobal>
-      <VacuumResistance>0.32</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--UAC Sheperd-->
@@ -384,7 +384,7 @@
       <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <WorkSpeedGlobal>0.50</WorkSpeedGlobal>
-      <VacuumResistance>0.32</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--UAC Fractal-->
@@ -453,7 +453,7 @@
       <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <WorkSpeedGlobal>0.50</WorkSpeedGlobal>
-      <VacuumResistance>0.32</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--UAC Fractal-->
@@ -522,7 +522,7 @@
       <ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <WorkSpeedGlobal>0.50</WorkSpeedGlobal>
-      <VacuumResistance>0.32</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--UAC Sheperd-->
@@ -591,7 +591,7 @@
       <ShootingAccuracyPawn>0.12</ShootingAccuracyPawn>
       <MentalBreakThreshold>-0.06</MentalBreakThreshold>
       <WorkSpeedGlobal>0.50</WorkSpeedGlobal>
-      <VacuumResistance>0.32</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--Wildcat Helm-->
@@ -653,7 +653,7 @@
       <AimingDelayFactor>-0.10</AimingDelayFactor>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <ToxicResistance>1</ToxicResistance>
-      <VacuumResistance>0.69</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--Sheperd Helm-->
@@ -715,7 +715,7 @@
       <AimingDelayFactor>-0.10</AimingDelayFactor>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <ToxicResistance>1</ToxicResistance>
-      <VacuumResistance>0.69</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--Raven Helm-->
@@ -777,7 +777,7 @@
       <AimingDelayFactor>-0.10</AimingDelayFactor>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <ToxicResistance>1</ToxicResistance>
-      <VacuumResistance>0.69</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--ASP Helm-->
@@ -839,7 +839,7 @@
       <AimingDelayFactor>-0.10</AimingDelayFactor>
       <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       <ToxicResistance>1</ToxicResistance>
-      <VacuumResistance>0.69</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
   <!--ASP Helm-->
@@ -954,7 +954,7 @@
       <AimingDelayFactor>-0.10</AimingDelayFactor>
       <MentalBreakThreshold>-0.06</MentalBreakThreshold>
       <ToxicResistance>1</ToxicResistance>
-      <VacuumResistance>0.69</VacuumResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
     </equippedStatOffsets>
   </ThingDef>
 </Defs>
