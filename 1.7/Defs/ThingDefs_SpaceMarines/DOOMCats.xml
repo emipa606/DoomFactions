@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>DOOMcategories</defName>
+    <!-- If you want your custom category for your outfit, this is what you use. The parent name must be unchanged -->
+    <label>DOOM Apparel</label>
+    <!-- Labels can be changed for updates without breaking game saves unlike defNames -->
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>DOOM_Armor</defName>
+    <label>DOOM Armor</label>
+    <parent>DOOMcategories</parent>
+  </ThingCategoryDef>
+  <!-- Hat main -->
+  <ThingCategoryDef>
+    <defName>DOOM_hats</defName>
+    <label>DOOM Headgear</label>
+    <parent>Headgear</parent>
+  </ThingCategoryDef>
+  <!-- Weapons main -->
+  <ThingCategoryDef>
+    <defName>DOOM_Guns</defName>
+    <label>Doom Ranged Weapons</label>
+    <parent>WeaponsRanged</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>DOOM_Melee</defName>
+    <label>Doom Melee Weapons</label>
+    <parent>WeaponsMelee</parent>
+  </ThingCategoryDef>
+</Defs>

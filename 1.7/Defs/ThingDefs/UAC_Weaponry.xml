@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Abstract defs -->
+  <ThingDef Name="UACBaseHumanMakeableGun" ParentName="BaseHumanMakeableGun" Abstract="True">
+    <recipeMaker>
+      <recipeUsers>
+        <li>UACTable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>UAC_Gun</li>
+    </weaponTags>
+    <thingCategories>
+      <li>UAC_Guns</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ================================================================================================================================== -->
+  <!-- ================================================================================================================================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_UACSaw</defName>
+    <label>Chainsaw Mk. IV</label>
+    <description>Does damage like the normal fist, but four times faster and a lot bloodier because it's nothing like the normal fist. Version IV.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACChainsaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>5.5</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <soundInteract>Pickup_UACChainsaw</soundInteract>
+    <tools>
+      <li>
+        <label>chainsaw</label>
+        <capacities>
+          <li>Saw</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+    <costStuffCount>90</costStuffCount>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>UACMelee</li>
+      <li>MarineMelee</li>
+    </weaponTags>
+    <thingCategories>
+      <li>UAC_Melee</li>
+    </thingCategories>
+  </ThingDef>
+  <ManeuverDef>
+    <defName>Saw</defName>
+    <requiredCapacity>Saw</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>Cut</meleeDamageDef>
+      <soundCast>Fire_UACChainsaw</soundCast>
+    </verb>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ToolCapacityDef>
+    <defName>Saw</defName>
+    <label>saw</label>
+  </ToolCapacityDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UACPistol</defName>
+    <label>UACPistol bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/UACSidearmProj</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>UAC_Plasm</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_Pistol</defName>
+    <label>UAC EMG pistol</label>
+    <description>Standard issue pistol for UAC staff.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACPistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>11000</WorkToMake>
+      <MarketValue>850</MarketValue>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UACPistol</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>25</range>
+        <soundCast>Fire_UACPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>UAC_Pistol</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UACCombatShotgun</defName>
+    <label>shotgun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_CombatShotgun</defName>
+    <label>UAC combat shotgun</label>
+    <description>A standard issue combat shotgun given to UAC security.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACCombatShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>3</Mass>
+      <WorkToMake>35000</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.88</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.68</AccuracyLong>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UACCombatShotgun</defaultProjectile>
+        <ticksBetweenBurstShots>95</ticksBetweenBurstShots>
+        <range>21</range>
+        <soundCast>Fire_UACCombatShotgun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>UAC_Shotgun</li>
+      <li>UAC_Wildcat</li>
+      <li>MarineLight</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UAC_BulletSuperShotgun</defName>
+    <label>sshotgun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_SuperShotgun</defName>
+    <label>Super shotgun IV</label>
+    <description>A double-barrelled, sawed-off shotgun which takes even longer to reload, but at close range is even more deadly than the regular shotgun. Version IV of the Super shotgun series.</description>
+    <graphicData>
+      <texPath>Things/Weapons/SuperShotgunV2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>2</Mass>
+      <WorkToMake>40000</WorkToMake>
+      <MarketValue>400</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UAC_BulletSuperShotgun</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>20</range>
+        <soundCast>ShotUACSuperShotgun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>UACGun</li>
+      <li>MarineLight</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UACHeavyAssaultRifle</defName>
+    <label>assault rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_HeavyAssaultRifle</defName>
+    <label>UAC heavy assault rifle</label>
+    <description>Standard issue UAC assault rifle, fires .50 cal rounds.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACHeavyAssaultRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UAC_Wildcat</li>
+      <li>MarineLight</li>
+    </weaponTags>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>6</Mass>
+      <WorkToMake>80000</WorkToMake>
+      <MarketValue>2250</MarketValue>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UACHeavyAssaultRifle</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>32</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>Fire_UACHeavyAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ======================= Minigun ======================= -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UACChaingun</defName>
+    <label>chaingun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>Gun_UACChaingun</defName>
+    <label>UAC Chaingun</label>
+    <description>A multi-barrel machine gun with an extremely high rate of fire. Union Aerospace design.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACChaingun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>110000</WorkToMake>
+      <Mass>11</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>1.60</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>160</Steel>
+      <ComponentIndustrial>21</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+    </recipeMaker>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>UAC_Sheperd</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UACChaingun</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>32</range>
+        <burstShotCount>30</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Fire_UACChaingun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UAC_GAUSSBEAM</defName>
+    <label>GAUSS Beam</label>
+    <graphicData>
+      <texPath>Things/Projectile/GAUSSBeam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>UAC_GAUSS</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <explosionRadius>1.1</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>Gun_GAUSSCannon</defName>
+    <label>UAC GAUSS Cannon</label>
+    <description>Fires energy beams that can reach long ranges. Union Aerospace manufactured and designed.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GAUSSCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>10</Mass>
+      <WorkToMake>150000</WorkToMake>
+      <MarketValue>1000</MarketValue>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.15</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UAC_GAUSSBEAM</defaultProjectile>
+        <warmupTime>2.0</warmupTime>
+        <range>30</range>
+        <soundCast>Fire_UACGAUSS</soundCast>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>UAC_Sheperd</li>
+      <li>UAC_EliteHeavy</li>
+      <li>MarineHeavy</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UACPlasmaGun</defName>
+    <label>PlasmaGun plasma</label>
+    <graphicData>
+      <texPath>Things/Projectile/Plasma2016</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>UAC_Plasm</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_PlasmaGun</defName>
+    <label>UAC plasma gun</label>
+    <description>Shoots pulses of blue-hot plasma at high speed, which can take down groups of incoming enemies easily â€” if aimed properly.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACPlasmaGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UAC_Wildcat</li>
+      <li>UAC_EliteLight</li>
+      <li>MarineLight</li>
+    </weaponTags>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>2.5</Mass>
+      <WorkToMake>100000</WorkToMake>
+      <MarketValue>2250</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UACPlasmaGun</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>26</range>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Fire_UACPlasmagun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>UAC_RocketLauncher</defName>
+    <label>Rocket UAC</label>
+    <graphicData>
+      <texPath>Things/Projectile/UAC_Shell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <explosionRadius>3.0</explosionRadius>
+      <speed>45</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>Gun_UACRocketLauncher</defName>
+    <label>UAC Rocket launcher</label>
+    <description>Fires explosive rockets. Does a lot of damage, but can also seriously hurt the player if used indiscriminately at close range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACRocketLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>8</Mass>
+      <WorkToMake>100000</WorkToMake>
+      <MarketValue>1000</MarketValue>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>5.00</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>UAC_RocketLauncher</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>40</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <soundCast>Fire_UACRocketLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>UAC_Sheperd</li>
+      <li>UAC_EliteHeavy</li>
+    </weaponTags>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UACHellshot</defName>
+    <label>Hellshot sticky</label>
+    <graphicData>
+      <texPath>Things/Projectile/HellshotPlasma</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_Hellshot</defName>
+    <label>UAC Hellshot</label>
+    <description>Firemode 2, fires a round that sticks and burns the target. Union Aerospace design, adapted Helltech.</description>
+    <graphicData>
+      <texPath>Things/Weapons/HellShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UAC_ASP</li>
+      <li>UAC_EliteLight</li>
+      <li>MarineLight</li>
+    </weaponTags>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>3.2</Mass>
+      <WorkToMake>150000</WorkToMake>
+      <MarketValue>5250</MarketValue>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.69</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>250</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UACHellshot</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>28</range>
+        <ticksBetweenBurstShots>95</ticksBetweenBurstShots>
+        <soundCast>Fire_UACHellshot</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_UACVortexRifle</defName>
+    <label>Vortex beam</label>
+    <graphicData>
+      <texPath>Things/Projectile/Vortexbeam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>UAC_Plasm</damageDef>
+      <damageAmountBase>45</damageAmountBase>
+      <speed>95</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_VortexRifle</defName>
+    <label>UAC Vortex rifle</label>
+    <description>Standard issue UAC sniper rifle.</description>
+    <graphicData>
+      <texPath>Things/Weapons/VortexRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UAC_Raven</li>
+      <li>UAC_EliteSniper</li>
+      <li>MarineSniper</li>
+    </weaponTags>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>4</Mass>
+      <WorkToMake>120000</WorkToMake>
+      <MarketValue>2250</MarketValue>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>240</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_UACVortexRifle</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>40</range>
+        <ticksBetweenBurstShots>95</ticksBetweenBurstShots>
+        <soundCast>Fire_UACVortex</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <!-- ============================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Proj_UACBFG</defName>
+    <label>BFG9000 UAC</label>
+    <graphicData>
+      <texPath>Things/Projectile/BFGPLAZMA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>UAC_BFG</damageDef>
+      <damageAmountBase>500</damageAmountBase>
+      <explosionRadius>4.0</explosionRadius>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="UACBaseHumanMakeableGun">
+    <defName>UAC_BFG</defName>
+    <label>UAC BFG9000 IV</label>
+    <description>The "Big Friendly Gun". Somewhat counter-intuitive to operate at first, but kills almost any monster in one shot. Version IV of the BFG series.</description>
+    <graphicData>
+      <texPath>Things/Weapons/UACBFG9000</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.12</MoveSpeed>
+    </equippedStatOffsets>
+    <statBases>
+      <Mass>10</Mass>
+      <WorkToMake>210000</WorkToMake>
+      <MarketValue>8500</MarketValue>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.52</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>5.00</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>UAC_XO</li>
+      <li>MarineBoss</li>
+    </weaponTags>
+    <costList>
+      <Steel>800</Steel>
+      <ComponentIndustrial>14</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Proj_UACBFG</defaultProjectile>
+        <warmupTime>2.0</warmupTime>
+        <range>30</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <soundCast>Shot_UACBFG9000</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+</Defs>
